@@ -1,0 +1,530 @@
+{
+	"scripts": {
+		"Scripts/UI_Elements/Dialogue_Box.gd": "Scripts/UI_Elements/Box_UI.gd",
+		"Scripts/UI_Elements/Portrait.gd": "Scripts/UI_Elements/Box_UI.gd",
+		"Scripts/UI_Elements/Subtitles.gd": "Scripts/UI_Elements/Subtitles_UI.gd",
+		"Scripts/UI_Elements/Backgrounds.gd": "Scripts/UI_Elements/BG_UI.gd",
+		"Scripts/UI_Elements/Bust_Scene.gd": "Scripts/UI_Elements/VN_UI.gd",
+		"Scripts/UI_Elements/History_Display.gd": "Scripts/UI_Elements/History_UI.gd",
+		"Scripts/UI_Elements/Input.gd": "Scripts/UI_Elements/Input_UI/Input_Text.gd",
+		"Scripts/Media_Players/BG_Player.gd": "",
+		"Scripts/Media_Players/Bust_Player.gd": "",
+		"Scripts/Media_Players/Portrait_Player.gd": ""
+	},
+	"scenes": {
+		"Scenes/Candy_UI.tscn": "Scenes/Dialogue_UI/Candy_UI.tscn",
+		"Scenes/Testing_Scene.tscn": "Scenes/Testing_Scenes/Testing_Scene.tscn",
+		"Scenes/Portrait_Areas/Candy_Default.tscn": "",
+		"Scenes/Portrait_Areas/Default.tscn": ""
+	},
+	"settings": {
+		"Scripts/Candy_Engine.gd": {
+			"portrait_mode": {
+				"new": "box_portrait_mode",
+				"note": "Renamed, same values (`chat_portrait_mode` is new)."
+			},
+			"bubble_exempt_mode": {
+				"new": "bubbles_exempt_mode",
+				"values": {
+					"0": "\"Box\"",
+					"1": "\"Subtitles\"",
+					"2": "\"Chat\"",
+					"3": "\"Bubbles\"",
+					"4": "\"VN_Bubbles\"",
+					"5": "\"Barks\"",
+					"6": "\"Voice\"",
+					"DialogueModes.Box": "\"Box\"",
+					"DialogueModes.Subtitles": "\"Subtitles\"",
+					"DialogueModes.Chat": "\"Chat\"",
+					"DialogueModes.Bubbles": "\"Bubbles\"",
+					"DialogueModes.VN_Bubbles": "\"VN_Bubbles\"",
+					"DialogueModes.Barks": "\"Barks\"",
+					"DialogueModes.Voice": "\"Voice\""
+				},
+				"note": "Renamed, and now a mode name instead of a number."
+			},
+			"dialogue_mode": {
+				"values": {
+					"0": "\"Box\"",
+					"1": "\"Subtitles\"",
+					"2": "\"Chat\"",
+					"3": "\"Bubbles\"",
+					"4": "\"VN_Bubbles\"",
+					"5": "\"Barks\"",
+					"6": "\"Voice\"",
+					"DialogueModes.Box": "\"Box\"",
+					"DialogueModes.Subtitles": "\"Subtitles\"",
+					"DialogueModes.Chat": "\"Chat\"",
+					"DialogueModes.Bubbles": "\"Bubbles\"",
+					"DialogueModes.VN_Bubbles": "\"VN_Bubbles\"",
+					"DialogueModes.Barks": "\"Barks\"",
+					"DialogueModes.Voice": "\"Voice\""
+				},
+				"note": "Now a mode name: Godot can't load the number 1.1.3 stored, so the engine falls back to `\"Box\"` until you set it again."
+			},
+			"text_to_speech": {
+				"values": {
+					"0": "\"Off\"",
+					"1": "\"Simple\"",
+					"2": "\"Advanced\"",
+					"TtsModes.Off": "\"Off\"",
+					"TtsModes.Simple": "\"Simple\"",
+					"TtsModes.Advanced": "\"Advanced\""
+				},
+				"note": "Now a TTS mode name: Godot can't load the number 1.1.3 stored, so the engine falls back to `\"Off\"` until you set it again."
+			},
+			"tts_advanced_fallback": {
+				"values": {
+					"0": "\"Off\"",
+					"1": "\"Simple\"",
+					"2": "\"Advanced\"",
+					"TtsModes.Off": "\"Off\"",
+					"TtsModes.Simple": "\"Simple\"",
+					"TtsModes.Advanced": "\"Advanced\""
+				},
+				"note": "Now a TTS mode name: Godot can't load the number 1.1.3 stored, so the engine falls back to `\"Simple\"` until you set it again."
+			},
+			"lexicon_bark_mode": {
+				"new": "lexicon_barks_mode",
+				"note": "Renamed, same values."
+			},
+			"mp_count_variants": {
+				"new": "mp_count_variations",
+				"note": "Renamed, same values."
+			},
+			"random_variants": {
+				"new": "random_variations",
+				"note": "Renamed, same values."
+			},
+			"media_players_locations": {
+				"new": "media_players_paths",
+				"quiet": true,
+				"note": "Renamed. Its `\"Voice\"` entry moved to `ui_elements_paths[\"voice_player_path\"]`, and `\"PEffect\"` is gone (the dialogue box's `portrait_effect_player`). An entry may now be `[path, false]`: named, not owned."
+			},
+			"cs_locations": {
+				"new": "cs_paths",
+				"quiet": true,
+				"note": "Renamed, same entries."
+			},
+			"ui_elements_paths": {
+				"check": true,
+				"quiet": true,
+				"note": "`\"portrait_path\"` is gone (the portrait is part of the dialogue box), `\"chat_path\"` must point at a Chat_Channel, and `\"voice_player_path\"` is new: the Voice mode's player (1.1.3's `media_players_locations[\"Voice\"]`)."
+			},
+			"dialogue_suspended": {
+				"removed": true,
+				"note": "No longer a setting. A scene that stored `true` still sets it when loaded, and 1.2 then refuses to start a dialogue: delete the line from the scene."
+			},
+			"default_voice_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			},
+			"chat_show_speaker": {
+				"note": "Only matters for chats, which are rebuilt in 1.2."
+			},
+			"vn_mode": {
+				"note": "1.1.3 skipped every VN command (`VN_Bust`, `VN_Scene`...) while it was off, as it was by default. 1.2 turns it on by default, so the VN lines your dialogues hold now run. Set it to `false` to keep 1.1.3's behaviour."
+			},
+			"enable_box_font_color": {
+				"removed": true,
+				"note": "Replaced by `box_text_bbcode`, a BBCode wrap with no switch: when this was on, write the colour there as `\"[color=#rrggbbaa]\"`."
+			},
+			"box_font_color": {
+				"removed": true,
+				"note": "Replaced by `box_text_bbcode`, a BBCode wrap: a colour `c` becomes `\"[color=#\" + c.to_html(true) + \"]\"`, used only if its `enable_` switch was on."
+			},
+			"enable_box_speaker_color": {
+				"removed": true,
+				"note": "Replaced by `box_speaker_bbcode`, a BBCode wrap with no switch: when this was on, write the colour there as `\"[color=#rrggbbaa]\"`."
+			},
+			"box_speaker_color": {
+				"removed": true,
+				"note": "Replaced by `box_speaker_bbcode`, a BBCode wrap: a colour `c` becomes `\"[color=#\" + c.to_html(true) + \"]\"`, used only if its `enable_` switch was on."
+			},
+			"enable_subtitle_font_color": {
+				"removed": true,
+				"note": "Replaced by `subtitles_text_bbcode`, a BBCode wrap with no switch: when this was on, write the colour there as `\"[color=#rrggbbaa]\"`."
+			},
+			"subtitle_font_color": {
+				"removed": true,
+				"note": "Replaced by `subtitles_text_bbcode`, a BBCode wrap: a colour `c` becomes `\"[color=#\" + c.to_html(true) + \"]\"`, used only if its `enable_` switch was on."
+			},
+			"enable_subtitle_speaker_color": {
+				"removed": true,
+				"note": "Replaced by `subtitles_speaker_bbcode`, a BBCode wrap with no switch: when this was on, write the colour there as `\"[color=#rrggbbaa]\"`."
+			},
+			"subtitle_speaker_color": {
+				"removed": true,
+				"note": "Replaced by `subtitles_speaker_bbcode`, a BBCode wrap: a colour `c` becomes `\"[color=#\" + c.to_html(true) + \"]\"`, used only if its `enable_` switch was on."
+			},
+			"enable_chat_font_color": {
+				"removed": true,
+				"note": "Replaced by `chat_text_bbcode`, a BBCode wrap with no switch: when this was on, write the colour there as `\"[color=#rrggbbaa]\"`."
+			},
+			"chat_font_color": {
+				"removed": true,
+				"note": "Replaced by `chat_text_bbcode`, a BBCode wrap: a colour `c` becomes `\"[color=#\" + c.to_html(true) + \"]\"`, used only if its `enable_` switch was on."
+			},
+			"enable_chat_speaker_color": {
+				"removed": true,
+				"note": "Replaced by `chat_speaker_bbcode`, a BBCode wrap with no switch: when this was on, write the colour there as `\"[color=#rrggbbaa]\"`."
+			},
+			"chat_speaker_color": {
+				"removed": true,
+				"note": "Replaced by `chat_speaker_bbcode`, a BBCode wrap: a colour `c` becomes `\"[color=#\" + c.to_html(true) + \"]\"`, used only if its `enable_` switch was on."
+			},
+			"enable_bubble_font_color": {
+				"removed": true,
+				"note": "Replaced by `bubbles_text_bbcode`, a BBCode wrap with no switch: when this was on, write the colour there as `\"[color=#rrggbbaa]\"`."
+			},
+			"bubble_font_color": {
+				"removed": true,
+				"note": "Replaced by `bubbles_text_bbcode`, a BBCode wrap: a colour `c` becomes `\"[color=#\" + c.to_html(true) + \"]\"`, used only if its `enable_` switch was on."
+			},
+			"enable_bark_font_color": {
+				"removed": true,
+				"note": "Replaced by `barks_text_bbcode`, a BBCode wrap with no switch: when this was on, write the colour there as `\"[color=#rrggbbaa]\"`."
+			},
+			"bark_font_color": {
+				"removed": true,
+				"note": "Replaced by `barks_text_bbcode`, a BBCode wrap: a colour `c` becomes `\"[color=#\" + c.to_html(true) + \"]\"`, used only if its `enable_` switch was on."
+			}
+		},
+		"Scripts/UI_Elements/Dialogue_Box.gd": {
+			"enable_text_color": {
+				"new": "enable_text_bbcode",
+				"note": "Renamed. 1.1.3 had it on by default (white text), 1.2 off: the text takes the label's own colour unless you set `text_bbcode` (`\"[color=#rrggbbaa]\"`) and switch it on."
+			},
+			"text_color": {
+				"new": "text_bbcode",
+				"quiet": true,
+				"note": "Now a BBCode wrap: a colour `c` becomes `\"[color=#\" + c.to_html(true) + \"]\"`."
+			},
+			"enable_speaker_color": {
+				"new": "enable_speaker_bbcode",
+				"note": "Renamed. 1.1.3 had it on by default (white names), 1.2 off: the name takes the label's own colour unless you set `speaker_bbcode` and switch it on."
+			},
+			"speaker_color": {
+				"new": "speaker_bbcode",
+				"quiet": true,
+				"note": "Now a BBCode wrap: a colour `c` becomes `\"[color=#\" + c.to_html(true) + \"]\"`."
+			},
+			"dialogue_node": {
+				"check": true,
+				"note": "Must be a RichTextLabel in 1.2: a Label loses its assignment."
+			},
+			"speaker_node": {
+				"check": true,
+				"note": "Must be a RichTextLabel in 1.2 (and is optional)."
+			}
+		},
+		"Scripts/UI_Elements/Subtitles.gd": {
+			"enable_text_color": {
+				"new": "enable_text_bbcode",
+				"note": "Renamed. 1.1.3 had it on by default (white text), 1.2 off: the text takes the label's own colour unless you set `text_bbcode` (`\"[color=#rrggbbaa]\"`) and switch it on."
+			},
+			"text_color": {
+				"new": "text_bbcode",
+				"quiet": true,
+				"note": "Now a BBCode wrap: a colour `c` becomes `\"[color=#\" + c.to_html(true) + \"]\"`."
+			},
+			"enable_speaker_color": {
+				"new": "enable_speaker_bbcode",
+				"note": "Renamed. 1.1.3 had it on by default (white names), 1.2 off: the name takes the label's own colour unless you set `speaker_bbcode` and switch it on."
+			},
+			"speaker_color": {
+				"new": "speaker_bbcode",
+				"quiet": true,
+				"note": "Now a BBCode wrap: a colour `c` becomes `\"[color=#\" + c.to_html(true) + \"]\"`."
+			},
+			"dialogue_node": {
+				"check": true,
+				"note": "Must be a RichTextLabel in 1.2: a Label loses its assignment."
+			}
+		},
+		"Scripts/UI_Elements/Portrait.gd": {
+			"default_image_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			},
+			"default_sprite_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			},
+			"default_animated_sprite_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			},
+			"default_video_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			},
+			"default_audio_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			},
+			"default_voice_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			},
+			"portrait_node": {
+				"check": true,
+				"note": "The portrait is part of the dialogue box in 1.2: move these nodes under your dialogue box scene and assign them on its root (`portrait_node`, `portrait_bg`, `portrait_fg`, `portrait_effect_player`, and the new `portrait_area`)."
+			},
+			"image_fps": {
+				"new": "default_animated_image_fps",
+				"note": "Renamed, on the dialogue box. Its 1.2 default, `0`, inherits `Candy_Properties.gd`'s rate (30): set the 1.1.3 value to keep the speed."
+			},
+			"sprite_fps": {
+				"new": "default_sprite_fps",
+				"note": "Renamed, on the dialogue box. Its 1.2 default, `0`, inherits `Candy_Properties.gd`'s rate (30): set the 1.1.3 value to keep the speed."
+			},
+			"default_z": {
+				"removed": true,
+				"note": "Gone: the portrait takes the dialogue box's z-order."
+			}
+		},
+		"Scripts/UI_Elements/Chat_Box.gd": {
+			"dialogue_node": {
+				"removed": true,
+				"note": "The Chat was remade (Chat_Box, Chat_Channel, Chat_Line): a 1.1.3 chat scene can't be converted. Build yours from 1.2's, and set its colours as BBCode wraps."
+			},
+			"enable_text_color": {
+				"removed": true,
+				"note": "The Chat was remade (Chat_Box, Chat_Channel, Chat_Line): a 1.1.3 chat scene can't be converted. Build yours from 1.2's, and set its colours as BBCode wraps."
+			},
+			"text_color": {
+				"removed": true,
+				"note": "The Chat was remade (Chat_Box, Chat_Channel, Chat_Line): a 1.1.3 chat scene can't be converted. Build yours from 1.2's, and set its colours as BBCode wraps."
+			},
+			"enable_speaker_color": {
+				"removed": true,
+				"note": "The Chat was remade (Chat_Box, Chat_Channel, Chat_Line): a 1.1.3 chat scene can't be converted. Build yours from 1.2's, and set its colours as BBCode wraps."
+			},
+			"speaker_color": {
+				"removed": true,
+				"note": "The Chat was remade (Chat_Box, Chat_Channel, Chat_Line): a 1.1.3 chat scene can't be converted. Build yours from 1.2's, and set its colours as BBCode wraps."
+			},
+			"default_z": {
+				"removed": true,
+				"note": "The Chat was remade (Chat_Box, Chat_Channel, Chat_Line): a 1.1.3 chat scene can't be converted. Build yours from 1.2's, and set its colours as BBCode wraps."
+			}
+		},
+		"Scripts/UI_Elements/Backgrounds.gd": {
+			"default_image_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			},
+			"default_sprite_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			},
+			"default_animated_sprite_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			},
+			"default_video_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			},
+			"default_audio_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			},
+			"default_voice_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			},
+			"image_fps": {
+				"new": "default_animated_image_fps",
+				"note": "Renamed. Its 1.2 default, `0`, inherits `Candy_Properties.gd`'s rate (30): set the 1.1.3 value to keep the speed of frame folders."
+			},
+			"sprite_fps": {
+				"new": "default_sprite_fps",
+				"note": "Renamed. Its 1.2 default, `0`, inherits `Candy_Properties.gd`'s rate (30): set the 1.1.3 value to keep the speed of spritesheets."
+			},
+			"default_z": {
+				"note": "The 1.2 default is lower: set `100` to keep 1.1.3's drawing order."
+			}
+		},
+		"Scripts/UI_Elements/Bust_Scene.gd": {
+			"default_image_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			},
+			"default_sprite_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			},
+			"default_animated_sprite_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			},
+			"default_video_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			},
+			"default_audio_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			},
+			"default_voice_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			},
+			"image_fps": {
+				"new": "default_animated_image_fps",
+				"note": "Renamed. Its 1.2 default, `0`, inherits `Candy_Properties.gd`'s rate (30): set the 1.1.3 value to keep the speed of frame folders."
+			},
+			"sprite_fps": {
+				"new": "default_sprite_fps",
+				"note": "Renamed. Its 1.2 default, `0`, inherits `Candy_Properties.gd`'s rate (30): set the 1.1.3 value to keep the speed of spritesheets."
+			},
+			"default_z": {
+				"note": "The 1.2 default is lower: set `100` to keep 1.1.3's drawing order."
+			}
+		},
+		"Scripts/Actor_Nodes/Speech_Bubble_2D.gd": {
+			"enable_text_color": {
+				"new": "enable_text_bbcode",
+				"note": "Renamed. 1.1.3 had it on by default (black text), 1.2 off: the text takes the label's own colour unless you set `text_bbcode` (`\"[color=#rrggbbaa]\"`) and switch it on."
+			},
+			"text_color": {
+				"new": "text_bbcode",
+				"quiet": true,
+				"note": "Now a BBCode wrap: a colour `c` becomes `\"[color=#\" + c.to_html(true) + \"]\"`."
+			}
+		},
+		"Scripts/Actor_Nodes/Bark_Bubble_2D.gd": {
+			"enable_text_color": {
+				"new": "enable_text_bbcode",
+				"note": "Renamed. 1.1.3 had it on by default (black text), 1.2 off: the text takes the label's own colour unless you set `text_bbcode` (`\"[color=#rrggbbaa]\"`) and switch it on."
+			},
+			"text_color": {
+				"new": "text_bbcode",
+				"quiet": true,
+				"note": "Now a BBCode wrap: a colour `c` becomes `\"[color=#\" + c.to_html(true) + \"]\"`."
+			}
+		},
+		"Scripts/Actor_Nodes/Speech_Bubble_3D.gd": {
+			"enable_text_color": {
+				"new": "enable_text_bbcode",
+				"note": "Renamed. 1.1.3 had it on by default (black text), 1.2 off: the text takes the label's own colour unless you set `text_bbcode` (`\"[color=#rrggbbaa]\"`) and switch it on."
+			},
+			"text_color": {
+				"new": "text_bbcode",
+				"quiet": true,
+				"note": "Now a BBCode wrap: a colour `c` becomes `\"[color=#\" + c.to_html(true) + \"]\"`."
+			},
+			"default_z": {
+				"removed": true,
+				"note": "Gone from 3D bubbles."
+			}
+		},
+		"Scripts/Actor_Nodes/Bark_Bubble_3D.gd": {
+			"enable_text_color": {
+				"new": "enable_text_bbcode",
+				"note": "Renamed. 1.1.3 had it on by default (black text), 1.2 off: the text takes the label's own colour unless you set `text_bbcode` (`\"[color=#rrggbbaa]\"`) and switch it on."
+			},
+			"text_color": {
+				"new": "text_bbcode",
+				"quiet": true,
+				"note": "Now a BBCode wrap: a colour `c` becomes `\"[color=#\" + c.to_html(true) + \"]\"`."
+			},
+			"default_z": {
+				"removed": true,
+				"note": "Gone from 3D bubbles."
+			}
+		},
+		"Scripts/Media_Players/Audio_Player.gd": {
+			"default_audio_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			}
+		},
+		"Scripts/Media_Players/Audio_Player_2D.gd": {
+			"default_audio_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			}
+		},
+		"Scripts/Media_Players/Audio_Player_3D.gd": {
+			"default_audio_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			}
+		},
+		"Scripts/Media_Players/Image_Player.gd": {
+			"default_image_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			}
+		},
+		"Scripts/Media_Players/Video_Player.gd": {
+			"default_video_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			}
+		},
+		"Scripts/Media_Players/Voice_Player.gd": {
+			"default_voice_extension": {
+				"quiet": true,
+				"note": "Now inherits `Candy_Properties.gd`'s default extension (the same value), unless set."
+			}
+		}
+	},
+	"new_settings": {
+		"Scripts/Candy_Engine.gd": {
+			"subtitles_self_clear": {
+				"note": "New: 1.1.3 left subtitles up until the next line; 1.2 clears them when the line ends. Set it to `false` to keep 1.1.3's behaviour.",
+				"old": "false"
+			}
+		},
+		"Scripts/UI_Elements/Box_UI.gd": {
+			"voice_node": {
+				"note": "New and required: the dialogue box speaks through its own voice player. Add an AudioStreamPlayer with `Voice_Player.gd` and assign it, or the box plays no voice."
+			},
+			"portrait_area": {
+				"note": "New: the node shown and hidden with the portrait (the root of your 1.1.3 portrait scene)."
+			}
+		},
+		"Scripts/UI_Elements/Subtitles_UI.gd": {
+			"voice_node": {
+				"note": "New and required: subtitles speak through their own voice player. Add an AudioStreamPlayer with `Voice_Player.gd` and assign it, or they play no voice."
+			}
+		},
+		"Scripts/Actor_Nodes/Speech_Bubble_2D.gd": {
+			"voice_node": {
+				"note": "New and required: the bubble speaks through its own voice player (an AudioStreamPlayer2D with `Voice_Player_2D.gd`)."
+			}
+		},
+		"Scripts/Actor_Nodes/Speech_Bubble_3D.gd": {
+			"voice_node": {
+				"note": "New and required: the bubble speaks through its own voice player (an AudioStreamPlayer3D with `Voice_Player_3D.gd`)."
+			}
+		},
+		"Scripts/Actor_Nodes/Bark_Bubble_2D.gd": {
+			"voice_node": {
+				"note": "New and required: the bark speaks through its own voice player (an AudioStreamPlayer2D with `Voice_Player_2D.gd`)."
+			}
+		},
+		"Scripts/Actor_Nodes/Bark_Bubble_3D.gd": {
+			"voice_node": {
+				"note": "New and required: the bark speaks through its own voice player (an AudioStreamPlayer3D with `Voice_Player_3D.gd`)."
+			}
+		}
+	},
+	"behaviour": [
+		"Values in dialogues are no longer trimmed: a space around a name or a file name is part of it.",
+		"A text variable that can't be resolved shows as written, instead of nothing.",
+		"Barks display their text (1.1.3 never showed it).",
+		"Each engine only clears the bubbles it wrote last. 1.1.3 cleared every actor's bubble on each Bubbles line and at the end of every dialogue.",
+		"The `Wait` command pauses while the dialogue is suspended (1.1.3 kept counting).",
+		"A media file that isn't found may play the folder's `Default` file instead of failing.",
+		"A finished background or bust playback stays on its last frame (1.1.3 rewound animated sprites and blanked videos).",
+		"Which actor is on which bust belongs to the bust scene, shared by every engine using it: another engine can move or remove an actor the first one placed.",
+		"A disabled choice's `Setup` runs when `Choice_Status` enables it, not when the menu opens.",
+		"`Media_` commands' `Box` also moves the barks.",
+		"Actor names are translated each time they're displayed (through `display_names`), not by the Name command."
+	]
+}

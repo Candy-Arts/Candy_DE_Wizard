@@ -1,0 +1,1391 @@
+{
+	"format": 2,
+	"package": "Candy_DE",
+	"version": "1.1.3",
+	"built": "2026-10-28T23:27:00Z",
+	"folders": {
+		"dialogues_folder": "Dialogues",
+		"portraits_folder": "Media/Characters/Portraits",
+		"busts_folder": "Media/Characters/Busts",
+		"sprite_folder": "Media/Characters/Sprites",
+		"voice_folder": "Media/Characters/Voices",
+		"background_folder": "Media/General/Backgrounds",
+		"image_folder": "Media/General/Images",
+		"video_folder": "Media/General/Videos",
+		"audio_folder": "Media/General/Audio",
+		"bust_scenes_folder": "Scenes/VN_Scenes",
+		"bg_scenes_folder": "Scenes/Background_Scenes",
+		"input_menus_folder": "Scenes/Input_Menus",
+		"choice_menus_folder": "Scenes/Choice_Menus",
+		"choice_categories_folder": "Scenes/Choice_Categories",
+		"choice_buttons_folder": "Scenes/Choice_Buttons",
+		"export_folder": "Exports"
+	},
+	"files": {
+		"Dialogues/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"IMPORTANT.pdf": {
+			"sha256": "c5638ac720c185c6946ec115bc5d003b033b1a783095064cfd70047a49850f47"
+		},
+		"Media/Characters/Busts/.Instructions.txt": {
+			"sha256": "eb9ab818108293d53bcc74cabb2d49ab69ad123d0f4a4db05c8f09593751c53c"
+		},
+		"Media/Characters/Busts/Alice/.Instructions.txt": {
+			"sha256": "eb95c297c17ee01382bc50028aa41a73bc992da75b59d32421a09996d513bf8a"
+		},
+		"Media/Characters/Busts/Alice/Animation_Libraries/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/Characters/Busts/Alice/Button_Textures/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/Characters/Busts/Alice/Sprite_Frames/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/Characters/Busts/Animation_Libraries/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/Characters/Portraits/.Disclaimer.txt": {
+			"sha256": "d8362a773a098d2defd7c851a7e619467e333c59998ed5a5655d823e11a41d5a"
+		},
+		"Media/Characters/Portraits/.Instructions.txt": {
+			"sha256": "663aaa9de6055b39ef2e5669a390c64adba4f2b544a48a9e5209d93a445b086c"
+		},
+		"Media/Characters/Portraits/Alice/.Instructions.txt": {
+			"sha256": "ab0fc89bbd9a0ec25abd5ffc2e25c92c69d8cb62978ae6676c9fa7fc37715081"
+		},
+		"Media/Characters/Portraits/Alice/Button_Textures/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/Characters/Portraits/Alice/Sprite_Frames/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/Characters/Portraits/John/.Instructions.txt": {
+			"sha256": "ab0fc89bbd9a0ec25abd5ffc2e25c92c69d8cb62978ae6676c9fa7fc37715081"
+		},
+		"Media/Characters/Portraits/John/Button_Textures/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/Characters/Portraits/John/Sprite_Frames/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/Characters/Portraits/construction_worker/.Instructions.txt": {
+			"sha256": "ab0fc89bbd9a0ec25abd5ffc2e25c92c69d8cb62978ae6676c9fa7fc37715081"
+		},
+		"Media/Characters/Portraits/construction_worker/Button_Textures/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/Characters/Portraits/construction_worker/Sprite_Frames/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/Characters/Sprites/.Instructions.txt": {
+			"sha256": "bc4943d789783563d5b14fabb54510c191b03b8287eac7d5ea962d4bc8e75003"
+		},
+		"Media/Characters/Sprites/Alice/.Instructions.txt": {
+			"sha256": "7eaa1ad468456b85737dc5704d08006ef2eb64443db4c7ed204c8377af30e927"
+		},
+		"Media/Characters/Sprites/Alice/Sprite_Frames/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/Characters/Voices/.Instructions.txt": {
+			"sha256": "17e908de7d0389abc5eedcb441ad4fcbcc37231137ad147f34951e3d2bd0d474"
+		},
+		"Media/Characters/Voices/Alice/Conversation_1/Block_1/.Instructions.txt": {
+			"sha256": "974604fc6c53c2fc527ccb29666856d8b77ec4f9276a0622ef9c6e73c520da43"
+		},
+		"Media/Characters/Voices/Alice/Conversation_1/Block_1/Default_S:F/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/Characters/Voices/Alice/Conversation_1/Block_1/Default_S:F_#1/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/Characters/Voices/Alice/Conversation_1/Block_1/French/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/General/Audio/.Instructions.txt": {
+			"sha256": "2e38884e1ccd79f66d49fdfcf0b7af0459413e5f498ba711de54ed373ad3a703"
+		},
+		"Media/General/Audio/Ambient/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/General/Audio/Music/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/General/Audio/Sound/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/General/Audio/Speech/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/General/Backgrounds/.Instructions.txt": {
+			"sha256": "611b9ad28c89286749fa4299b1c1d8cb185d906042662e3e4bcf5581dbf789d9"
+		},
+		"Media/General/Backgrounds/1/Animation_Libraries/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/General/Backgrounds/1/Button_Textures/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/General/Backgrounds/1/Sprite_Frames/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/General/Backgrounds/2/Animation_Libraries/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/General/Backgrounds/2/Button_Textures/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/General/Backgrounds/2/Sprite_Frames/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/General/Backgrounds/3/Animation_Libraries/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/General/Backgrounds/3/Button_Textures/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/General/Backgrounds/3/Sprite_Frames/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/General/Backgrounds/4/Animation_Libraries/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/General/Backgrounds/4/Button_Textures/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/General/Backgrounds/4/Sprite_Frames/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/General/Backgrounds/5/Animation_Libraries/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/General/Backgrounds/5/Button_Textures/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/General/Backgrounds/5/Sprite_Frames/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/General/Backgrounds/Animation_Libraries/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/General/Images/.Instructions.txt": {
+			"sha256": "2a8754135b119fb34356ad28592bf3ab431a029de16422f89394f8da0f37a7d4"
+		},
+		"Media/General/Images/Splash/Animated/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Media/General/Videos/.Instructions.txt": {
+			"sha256": "2b7eb2120ee8c6f62228d3df1d30cce0986bd97b095f048c515383c8f36bc489"
+		},
+		"Media/General/Videos/Video/.gitkeep": {
+			"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"Scenes/Background_Scenes/Candy_Default.tscn": {
+			"sha256": "04382901e0ecd0365bfc0bc21ee3b5706ce3a4b68f30027fcfad8b85cd73fc11",
+			"resource_sha256": "2ceff3b1f7f3bd68243f07e75ff728378b01062ecf5cef67f670f6151d061ca5"
+		},
+		"Scenes/Background_Scenes/Default.tscn": {
+			"sha256": "1a10ab05e0442fcf420627318241abf5d03d28419c4dcc25c6ac6c89b9acb1c8",
+			"resource_sha256": "1b5f5233982361168871da9e9a1272e8ede604aeb18f09be79a6461c6b5710ec"
+		},
+		"Scenes/Barks_2D/Candy_Default.tscn": {
+			"sha256": "c24d5e5e6488d42f20e424ffc6bf5361095da19b931dd32b17506af13964f224",
+			"resource_sha256": "0bf363706956bceaff0fe4992173d6cce944b9ce275135ea969c826f40735a1b"
+		},
+		"Scenes/Barks_2D/Default.tscn": {
+			"sha256": "7a2d75881dbd7504c385bc9474e1d229de5885cf3979f70c6604644a63efe780",
+			"resource_sha256": "d24f0ac11bce0d07a17d25cf98ba18c4155a3ac1b9b3cd19c19bf4050b9e3169"
+		},
+		"Scenes/Barks_3D/Candy_Default.tscn": {
+			"sha256": "7c1f0e8828e6ebd3ccf946e8a78f14455321a3c6c556865d2b06120650f95dec",
+			"resource_sha256": "0240da371b12d5f950b2f56a4194f40cf537700a2c38d9d464aee8cd264debfa"
+		},
+		"Scenes/Barks_3D/Default.tscn": {
+			"sha256": "1c6373b47f9b4578fb6efbb305e6fa7b1fab1d10cce3b43fbeb68b250a6e49e9",
+			"resource_sha256": "fdacaed73cd4c6a4db8decb9b5ed552cc4d9de4486bb078961ae6f77feca2550"
+		},
+		"Scenes/Candy_UI.tscn": {
+			"sha256": "98709f1f2cfd2d7f2aa073c33654c724424296dbdc00923cfbfc9a080dc823cc",
+			"resource_sha256": "577540597101476d456c4bcf8efc35c078277faddeb3eaac7a95a016c11a4683"
+		},
+		"Scenes/Chat_Boxes/Candy_Default.tscn": {
+			"sha256": "49981aa3ff736d2d2a54f7d91742168f4e30db162bc21a10772dbf59c7733fee",
+			"resource_sha256": "186e986169e3106849a039c27f2274f05c7611c17e19f4ae723a711db8e17f18"
+		},
+		"Scenes/Chat_Boxes/Default.tscn": {
+			"sha256": "ee8e33cab74000bc0226395c04afd706526932a60078716589a65a4ac6560da1",
+			"resource_sha256": "67eac732db3bd2c989c859b2bbde66f1ceb7e82721666c9a793eac5ee0af483d"
+		},
+		"Scenes/Choice_Buttons/Candy_Default.tscn": {
+			"sha256": "af9d8681c71c677a271ead76f501ff8ee28e9f274d97316d06bed85240dad9bf",
+			"resource_sha256": "21954d29defd9607d9734b6002a2bbaeda58a50bed9c4a91a327c1713b3332ec"
+		},
+		"Scenes/Choice_Buttons/Default.tscn": {
+			"sha256": "b23222c7836c0248e7044cd32757652dab4f6d7ca391260c725ef463602f9de1",
+			"resource_sha256": "cc43c933d4467a0207e280374fe9a3121412ee907274fa578926afdcab304655"
+		},
+		"Scenes/Choice_Categories/Candy_Default.tscn": {
+			"sha256": "b8d9a66a37dcc23b378c30298f8be3c747f693804093e0cec54161956c69bd96",
+			"resource_sha256": "c4027772385ccfe05cf2e9460a219a2af3d2996e501afa63cb7e027a7f7b9424"
+		},
+		"Scenes/Choice_Categories/Default.tscn": {
+			"sha256": "4f04047043d6af596871a8431844a45b68692b7746f259b23ef327e2f3d12e14",
+			"resource_sha256": "b22d478344000f96e496c499665bdd197e36a4b4a2aa4c95f242622c6994d331"
+		},
+		"Scenes/Choice_Menus/Candy_Default.tscn": {
+			"sha256": "fcb619c86f1e3701983da658814594c1f4761793706c23ccf501b252fbe13f43",
+			"resource_sha256": "2e2445d9354a62992651eff4e9da32988ab7be1459cf5280158fbdd3339b1fac"
+		},
+		"Scenes/Choice_Menus/Default.tscn": {
+			"sha256": "13fb3f3b9a3f4a801b5dabfdbd090aa80f8c4bf4462b8637c04dce84032b849f",
+			"resource_sha256": "c13f7c19dd7bf5d1239b3b985c08a5f091f110fd00cc1b951d15caa37b5d731c"
+		},
+		"Scenes/Dialogue_Boxes/Candy_Default.tscn": {
+			"sha256": "7d0b13a64f82fbe42180acff833d7cafab073250cc756ed351df4d7092d69d95",
+			"resource_sha256": "d9ce5d6ad5301fe339928f40897264f4d9f1132b42281b1bc66f73c9a34e9788"
+		},
+		"Scenes/Dialogue_Boxes/Default.tscn": {
+			"sha256": "4bf119eb14bf58c09742c9dd083c4858035b314cdd2955f7ebfaff6094956722",
+			"resource_sha256": "ea9b0209470db208d6da6c3db2fbaab697d339d8139b43a4611aa39c8e5ce5a5"
+		},
+		"Scenes/History_Menus/Candy_Default.tscn": {
+			"sha256": "6123e3cfaebf48902bf4297a83f061cc1e6323b36a59cdf3cdded1665b46c00f",
+			"resource_sha256": "7010d9e3f714a43445b3ad2bb3b99cf8cfef9e457feba5cc5e94cacafe5c6f4a"
+		},
+		"Scenes/History_Menus/Default.tscn": {
+			"sha256": "d0f3b942513cb0a788a3175ff77c02001141a81196b70f46fb417c1b16dc1705",
+			"resource_sha256": "f3ef9d92cde99aad019049dfdc5de73bb9f7e6d525201aafb36a51fadf8e17c6"
+		},
+		"Scenes/Image_Players/Candy_Default.tscn": {
+			"sha256": "6f680376fde4ed211f95cb74b0e969ee35532fcd1a9ae3fd778e3068c55f0f86",
+			"resource_sha256": "4bb4bbb63ab03c5c256e8f2dc1ab94f4b59ff62d1aff0524399bfb31ae03b5da"
+		},
+		"Scenes/Image_Players/Default.tscn": {
+			"sha256": "ee9a226041b0a10782c295f7fe4188ed616674f01bf01b0b95a3e732b45d9862",
+			"resource_sha256": "d2ea64769f8d5554ba982ad8caa39a210b13d7ca99b13987228e06474dc55e92"
+		},
+		"Scenes/Input_Menus/Candy_Default.tscn": {
+			"sha256": "dae0e08ca0eaf34965f7338386be4437dbbc3fc21fa6a71b7e0469cedc5a59dd",
+			"resource_sha256": "61b99624334b371760814c597a01f5124142695e3506df639b96ce51b8e95d95"
+		},
+		"Scenes/Input_Menus/Default.tscn": {
+			"sha256": "3fa65ae31660d83ab52d1a80c97be8e3806789de3f919266b5f0db21636f925b",
+			"resource_sha256": "9d50f001fbafc53c6c769b1b5074caebb8b4827187b99ce012751ee94b87b754"
+		},
+		"Scenes/Portrait_Areas/Candy_Default.tscn": {
+			"sha256": "0e27ed3dd171612d7fb2a90072f732ce692cac04d239b161b83a5244637a4819",
+			"resource_sha256": "2c5fba853854d1acb80502feaaefe54becddee74f0c2612627d23904f6234c98"
+		},
+		"Scenes/Portrait_Areas/Default.tscn": {
+			"sha256": "094a83f432d12f6965d5e0cb1a060f8cfceafad6f421313226d3e55820a3a62e",
+			"resource_sha256": "cd50256a2b093d358c9cecb29ac4319a876142205b81fbc8043544966ab3487c"
+		},
+		"Scenes/Speech_Bubbles_2D/Candy_Default.tscn": {
+			"sha256": "627cb8e98388b08f5ae819084029c17d4454e83e0f03887277722cc1e3dea2ac",
+			"resource_sha256": "a87e1c5364109fb534692e33a7d04fe929a87ae6e27bbb560d2edc5fe5641ad6"
+		},
+		"Scenes/Speech_Bubbles_2D/Default.tscn": {
+			"sha256": "c78e4390c2d1f1d3faae92165983aa0aeb6adef8285ef453c631e2f707dcf8c3",
+			"resource_sha256": "6457892904f72c12184bc5b79fdd1400af1ee0506c4ac4557737b964d2442e57"
+		},
+		"Scenes/Speech_Bubbles_3D/Candy_Default.tscn": {
+			"sha256": "7db581f4eb6fca850016b57d7a73c62ebe5c31052d433be626dd0a760a6cb7da",
+			"resource_sha256": "deb407e01d1cdcb22ec6f667b20bdd360ce5b6188c205f40abcccddae6a99a42"
+		},
+		"Scenes/Speech_Bubbles_3D/Default.tscn": {
+			"sha256": "6908c97c6e88438472540e4b883e065cbfbd25a58919c9d90543b0cd7336efad",
+			"resource_sha256": "be9c9d75d13bfe6b72fa61367b0e89ce6a2a4da7b24ad68e1af0550bbb069c7f"
+		},
+		"Scenes/Subtitles/Candy_Default.tscn": {
+			"sha256": "82420b2936257d47e8d6fadbd4098dcf95c83c286bca6a5d211e6b29e80cbf12",
+			"resource_sha256": "0a1e77cdafac54b0cda379597df30b9f855e80defe4ce33ede55dbcea56cd301"
+		},
+		"Scenes/Subtitles/Default.tscn": {
+			"sha256": "3dda24bbcb02b966d103377283cc844d700c05a04ae2c141f45a5eb40a8894d5",
+			"resource_sha256": "9eff70f7822b06b98b4f7b38079a939b6f5bb3c8d8566a3e73d08c288cd60f92"
+		},
+		"Scenes/Testing_Scene.tscn": {
+			"sha256": "c88940078262635300e35e6a4954b1275ca161ccdec614f8aa0af2cb2a10e6b2",
+			"resource_sha256": "6a56399ad886050e1d15e033c7c73709e7d91b1ff701a9774b188e89c471f8aa"
+		},
+		"Scenes/VN_Scenes/Candy_Default.tscn": {
+			"sha256": "b5dd2b90fb12b35263b4cd4c9b613bf178caeaae8612ab2b65e095dc3ccb0c10",
+			"resource_sha256": "e1b2ce7e217a5bf09b867f3d15561d25521f699e66ef03d5a09b6dba4cd5bc6c"
+		},
+		"Scenes/VN_Scenes/Default.tscn": {
+			"sha256": "9c9d423f01b5baeb9352975ee413f51dc206f05910e59a6d5ab45292bea61f0b",
+			"resource_sha256": "1567ed982c72a82ae64262f752583033cf8474cc70fc98e4082f5649c4e6d793"
+		},
+		"Scripts/Actor_Nodes/Bark_Bubble_2D.gd": {
+			"sha256": "90ecf323128b88c844f90a7129a3b27bfe3d21bb1cda8011c15476ed05d95398"
+		},
+		"Scripts/Actor_Nodes/Bark_Bubble_3D.gd": {
+			"sha256": "f97033c86edaaa8ffc69ea6cf1942805cb81f0c6646f78c30e1b00b856e86ac2"
+		},
+		"Scripts/Actor_Nodes/Speech_Bubble_2D.gd": {
+			"sha256": "90ecf323128b88c844f90a7129a3b27bfe3d21bb1cda8011c15476ed05d95398"
+		},
+		"Scripts/Actor_Nodes/Speech_Bubble_3D.gd": {
+			"sha256": "f97033c86edaaa8ffc69ea6cf1942805cb81f0c6646f78c30e1b00b856e86ac2"
+		},
+		"Scripts/Candy_Engine.gd": {
+			"sha256": "d357717b55d1ef1cf856df4089181f1ba87929c6868da21d9c9a9f1aec5da3b4"
+		},
+		"Scripts/Media_Players/Audio_Player.gd": {
+			"sha256": "99bbcddc71c6c93febb96f0d7cfbe8b4a810dd5ff8c9813296f3ff3ebdf10af1"
+		},
+		"Scripts/Media_Players/Audio_Player_2D.gd": {
+			"sha256": "3b3700bdf40dac56cec445411ea0b749be205f1281820df6a814926882501411"
+		},
+		"Scripts/Media_Players/Audio_Player_3D.gd": {
+			"sha256": "66bd61bfeba2e352f994a8bd71055e530441dfa6ba9a6f6c7bd070e42768d325"
+		},
+		"Scripts/Media_Players/BG_Player.gd": {
+			"sha256": "fab8ed0e20fcf546eae4f82b4d14c90083b1f3343ac74035b48502fad00f0ced"
+		},
+		"Scripts/Media_Players/Bust_Player.gd": {
+			"sha256": "6d9f410343dbd7b2ed72d4f55d81d7d1939f1c0e91d0986149325efa91ebfae9"
+		},
+		"Scripts/Media_Players/Effect_Player.gd": {
+			"sha256": "27cca0fc7186f2654310dbe731e0cfdc390d408fb9a3ce5a2accefeb12f0241e"
+		},
+		"Scripts/Media_Players/Image_Player.gd": {
+			"sha256": "b4b0c859462ff4969eeda09cefceb5b8d07bfd9357f74bb23425f65837654c25"
+		},
+		"Scripts/Media_Players/Portrait_Player.gd": {
+			"sha256": "8736bc192e01cfb6f7fd83e4b931d00bb88f188abc297f6ee4b87d2f6d21b8cc"
+		},
+		"Scripts/Media_Players/Video_Player.gd": {
+			"sha256": "7e2b71704c6c8156ede3832a1fed6a6ac99508ee3a8b070b4f3e234c4c8af3e9"
+		},
+		"Scripts/Media_Players/Voice_Player.gd": {
+			"sha256": "373a4e19641cb17386765d32a38c06940b9bc36b63fc76d12dcc455055d71a55"
+		},
+		"Scripts/Testing_Scene.gd": {
+			"sha256": "10cb5b06ea022d6ed6882a70fd8f71cbc6d0641adcbe6c505683e3070bba1ede"
+		},
+		"Scripts/UI_Elements/Backgrounds.gd": {
+			"sha256": "97f11efe6ea90e5dfaa168d7b2e3a067a4b597d304a113b7d0baa775f84c1a8f"
+		},
+		"Scripts/UI_Elements/Bust_Scene.gd": {
+			"sha256": "f34adc0b8297343f485de64d56bf29eee4c3076219995dd0d189b8002e33f6ba"
+		},
+		"Scripts/UI_Elements/Chat_Box.gd": {
+			"sha256": "220b9f001090e25797d501e540bb143ab6591a9abe4ab5ccca24925795eee569"
+		},
+		"Scripts/UI_Elements/Choice_Button.gd": {
+			"sha256": "da9b96ea08daa8a01f0eb550ed78843c09dee771bfe88b77fde80ee51d490e41"
+		},
+		"Scripts/UI_Elements/Choice_Category.gd": {
+			"sha256": "b655c3c59d89f9c90b2469131860165497cca8eaf8d6c01a5a49de56763b1184"
+		},
+		"Scripts/UI_Elements/Choice_Menu.gd": {
+			"sha256": "9105011b57470d3d2c262027c0ebcd5ea7614d0fc0e6e636d5f07f2ab319657e"
+		},
+		"Scripts/UI_Elements/Dialogue_Box.gd": {
+			"sha256": "00e3c4ecf8534ef300d5521c603e9bcbda77697b9d5fc7cbb68689403364e1b1"
+		},
+		"Scripts/UI_Elements/History_Display.gd": {
+			"sha256": "7c60f56c22f59704d76e87117d3cd64d9f1ac3315e3d11d238e0a410726c2ba3"
+		},
+		"Scripts/UI_Elements/Input.gd": {
+			"sha256": "a2a5a638a7cf18f539009080c75dfc96def9b50170ae5e515e58ea7cc494ba6f"
+		},
+		"Scripts/UI_Elements/Portrait.gd": {
+			"sha256": "e9d3a32c88ad1e4919a298efb764d19c985997687d34e55924bcf8c65a808e91"
+		},
+		"Scripts/UI_Elements/Subtitles.gd": {
+			"sha256": "def8fe43c2c3abcf83fc2bff496e1ef0a236e13a3faf6c6822979dcd72040a4f"
+		},
+		"Scripts/User_Data/Candy_Database.gd": {
+			"sha256": "2ccf10bebb638de873dd0a0395e0822b274956c5b9a3a01a60f1bb696a0405ae"
+		},
+		"Scripts/User_Data/Candy_Functions.gd": {
+			"sha256": "fec08456a88978a246fb68a037e5ae72efb0ae89906107b9856eb2348aadb95a"
+		},
+		"Scripts/User_Data/Candy_Localizations.gd": {
+			"sha256": "f3a7076b267f1b71acfbe27229df72e6d97185129c8d27d5977b423a04552c9f"
+		},
+		"Scripts/User_Data/Candy_Properties.gd": {
+			"sha256": "49c6f172f74d9d96badac39c93a3b3e412c2804d39eee5969b8e00039a32eadd"
+		},
+		"UI Resources/BarkBubble.png": {
+			"sha256": "6f070a7ba9c00f6d17c6e0352a7bb2167b0c6496df342687087e6ec679ffdbe9"
+		},
+		"UI Resources/PortraitFG1.png": {
+			"sha256": "7407fe75470f0b472a92253b8340f6b4acb3bb4325dab6224fffefa09fe58f36"
+		},
+		"UI Resources/SpeechBubble.png": {
+			"sha256": "345fe4b2e6f1bf3521ac66f789d0b02d657c689b511127b39fa5af2e1a0ceb20"
+		}
+	},
+	"scripts": {
+		"Scripts/Actor_Nodes/Bark_Bubble_2D.gd": {
+			"functions": {
+				"_ready": "94ddf20959438926c69352b75e4bd65c45fc0aafe4c863c9c077adb0cce899d9",
+				"show_text": "857b235ad46692faf8a4de2b490d97e3f3d2013300d81f69a13d9a2b29b8db22",
+				"clear": "4723cb0be65f3c5138699f2d6d75c60d42389b2181f329078da665cb1c97b701",
+				"x_write_begun": "fe0ebf2c079b5ff9ced461f50707e138fb280cf09bdbf6776eadf3b2f01ba066",
+				"x_write_finished": "4d79aa4c1787f4ad22f019465956da586edcaa606ca850547b676450349b8641"
+			},
+			"rest": "4fcc2ed595665729d71561a73ee2e9da77f41d1ef4c69c1e453dbd9a8d0ed06d",
+			"variables": [
+				"override_color",
+				"caller"
+			],
+			"exports": {
+				"label": "",
+				"sprite": "",
+				"viewport": "",
+				"y_offset": "0",
+				"x_offset": "0",
+				"max_width": "256",
+				"text_width_margin": "16",
+				"enable_text_color": "true",
+				"text_color": "Color(0, 0, 0)",
+				"default_z": "100"
+			}
+		},
+		"Scripts/Actor_Nodes/Bark_Bubble_3D.gd": {
+			"functions": {
+				"_ready": "94ddf20959438926c69352b75e4bd65c45fc0aafe4c863c9c077adb0cce899d9",
+				"show_text": "3ca73c51ed0ba33aa8b40d46934b7a2bfa56f0b5d7c742491275a1b7e381d797",
+				"clear": "4723cb0be65f3c5138699f2d6d75c60d42389b2181f329078da665cb1c97b701",
+				"x_write_begun": "fe0ebf2c079b5ff9ced461f50707e138fb280cf09bdbf6776eadf3b2f01ba066",
+				"x_write_finished": "4d79aa4c1787f4ad22f019465956da586edcaa606ca850547b676450349b8641"
+			},
+			"rest": "c2f59d3fcaab38ed261d9e52d855abc42a7dc1165e7e9cc9209852e47cb50892",
+			"variables": [
+				"override_color",
+				"caller"
+			],
+			"exports": {
+				"label": "",
+				"sprite": "",
+				"viewport": "",
+				"y_offset": "0.0",
+				"x_offset": "0.0",
+				"z_offset": "0.0",
+				"max_width": "256",
+				"text_width_margin": "16",
+				"enable_text_color": "true",
+				"text_color": "Color(0, 0, 0)",
+				"default_z": "100"
+			}
+		},
+		"Scripts/Actor_Nodes/Speech_Bubble_2D.gd": {
+			"functions": {
+				"_ready": "94ddf20959438926c69352b75e4bd65c45fc0aafe4c863c9c077adb0cce899d9",
+				"show_text": "857b235ad46692faf8a4de2b490d97e3f3d2013300d81f69a13d9a2b29b8db22",
+				"clear": "4723cb0be65f3c5138699f2d6d75c60d42389b2181f329078da665cb1c97b701",
+				"x_write_begun": "fe0ebf2c079b5ff9ced461f50707e138fb280cf09bdbf6776eadf3b2f01ba066",
+				"x_write_finished": "4d79aa4c1787f4ad22f019465956da586edcaa606ca850547b676450349b8641"
+			},
+			"rest": "4fcc2ed595665729d71561a73ee2e9da77f41d1ef4c69c1e453dbd9a8d0ed06d",
+			"variables": [
+				"override_color",
+				"caller"
+			],
+			"exports": {
+				"label": "",
+				"sprite": "",
+				"viewport": "",
+				"y_offset": "0",
+				"x_offset": "0",
+				"max_width": "256",
+				"text_width_margin": "16",
+				"enable_text_color": "true",
+				"text_color": "Color(0, 0, 0)",
+				"default_z": "100"
+			}
+		},
+		"Scripts/Actor_Nodes/Speech_Bubble_3D.gd": {
+			"functions": {
+				"_ready": "94ddf20959438926c69352b75e4bd65c45fc0aafe4c863c9c077adb0cce899d9",
+				"show_text": "3ca73c51ed0ba33aa8b40d46934b7a2bfa56f0b5d7c742491275a1b7e381d797",
+				"clear": "4723cb0be65f3c5138699f2d6d75c60d42389b2181f329078da665cb1c97b701",
+				"x_write_begun": "fe0ebf2c079b5ff9ced461f50707e138fb280cf09bdbf6776eadf3b2f01ba066",
+				"x_write_finished": "4d79aa4c1787f4ad22f019465956da586edcaa606ca850547b676450349b8641"
+			},
+			"rest": "c2f59d3fcaab38ed261d9e52d855abc42a7dc1165e7e9cc9209852e47cb50892",
+			"variables": [
+				"override_color",
+				"caller"
+			],
+			"exports": {
+				"label": "",
+				"sprite": "",
+				"viewport": "",
+				"y_offset": "0.0",
+				"x_offset": "0.0",
+				"z_offset": "0.0",
+				"max_width": "256",
+				"text_width_margin": "16",
+				"enable_text_color": "true",
+				"text_color": "Color(0, 0, 0)",
+				"default_z": "100"
+			}
+		},
+		"Scripts/Candy_Engine.gd": {
+			"functions": {
+				"commands": "961d9b4c51295f5b0f8683794d7a95ea34e9f118908924260c010be2897ee50a",
+				"normalize_command_name": "bb453005f8f243bdda2dab7959697bdf4ac1dd147c2da3422a43fb31bed883fd",
+				"_ready": "44ca8c9e705decd6c92ff102fb8049c5916a4e0c0856153cb7000be05addb584",
+				"load_scripted_dialogue": "b7362cb42e00fac336c2986f5121d680c9d6b8caedfbc8af00c8c3647eeff4f1",
+				"start_dialogue": "ad91227d0d1a6d8610c3a0582ec854ed1aa590ed2d96db4027115a59cefb48bc",
+				"jump_start_dialogue": "798a6dba4c64f667664d3ec05b07bded1bc6d65067ea119725692fd354ae420e",
+				"run_dialogue": "af6f1956ce0da38b41b9496345dbe4e5c6826564e7bdabef68fc54e847a4a630",
+				"process_lines": "9054e201ed59c75569e19e1798a98ba4049739e81e01148b6be2e980492b5350",
+				"display_line": "aa05988e9e1c3654e99354b8bb3c0c15ba9c4e030b480f1e2f8271ef45fc6d1f",
+				"wait_for_player_advance": "7398723a2c4bb5358461fcb219a416d6a34ba19afb300b2fe392c3f2d7640cca",
+				"end_dialogue": "7a779944105dabd1791f123054759e6911ac2914547f33b063d4b3cf5f7ca651",
+				"clear_previous_dialogue": "53ada6013a5cbadf901127a16d8ca9e1a104aeed796fa127ca4d41123df04013",
+				"clear_ui": "2b7eb17370e9863d8ebb5fc158e10502bfc042a29a246489604e13e8f04b33b4",
+				"suspend_dialogue": "f44d1ebe55bce196356c322e5f6b0e5ca7b8258861dc0e4dae3de61bf57313cb",
+				"resume_dialogue": "fa625e8a78f6418f3111e1cf8f7c93d753e4922d8b6e430dfd12ea7733c29693",
+				"pause_media_players": "fadf2f0876e594a4a628c496c6a7729f5477789e027b491bc92aa4a916769e2a",
+				"resume_media_players": "c8cd65eeceb93cb86103f759fe0e086d9e08dd2c15147d282eb6ec254a64a2f6",
+				"pause_portraits": "ab72935a2b8acff3f436c76ea5eeb9f31c51c34a8fd0c4c345c1b46493721d03",
+				"resume_portraits": "060eca50d1c231a15cc60b6afbe53cb6bddef67791fe030a6bed5a7f39e89689",
+				"pause_backgrounds": "a6869ea61a1679711740a731ea971da5ffc5312509c6dc46a33e84ff7ad302d4",
+				"resume_backgrounds": "b5cc3d54edf6c4bbd6d69b375b39b54aa5c725e1ab17118235fe169efb6da102",
+				"pause_busts": "3ed96d1074770445dd84ce6ddc56085dc9cbe5e0a43014cc7eae1f93a3e2f24b",
+				"resume_busts": "f4b49fe3989385460e17aedf505d95f81fa60e68e427a7591fcb479a346c847d",
+				"_find_animation_players": "228deacc8b207a3c4be16de40d46fc6880f8ea2e89e892eaae75885187fbbe57",
+				"_is_valid_bbcode_tag": "bec67db7124ee2dd2a8ef0024c5347ac0e72a262af357d6900c1d2a77e7efd6d",
+				"bbcode_strip_tags": "eecba41a88a542824762a4c55c11fad1399c2cba592806b2606ebcb4f4113af1",
+				"_reference_symbols": "b98e3e5ea42db64b4250c1378e5fb5cd4b74a7d9811454134cf8856d3f251fde",
+				"_find_quote_end": "441da9af0c4493026094852d2da88cfa5af64e81ba6e9be6f16ee158af750cb5",
+				"_find_bracket_end": "5d9afd9e04942d569f5c14d2f49d98ff798fe698cf480049c24f3bcff4aa3833",
+				"_resolve_super": "b1264dc0f8e6d25d1833d2151857cad5af592521269f6583411f787723d28156",
+				"_prepare_expression": "c6ee47f735292fab8bd30eedb80bc12a0c495d29c172a1de3715367d158fca4f",
+				"resolve_value": "03596ab414414f25048ee3605b49a09df24866582acc25260bc90458a3be60fb",
+				"decode_variable_name": "e60398a093b3cab071d70d120812f522c416742ef57061e152783f8c6e48f321",
+				"_parse_reference_path": "3eab71b380127ba7e1934dd3ec02e9d3a97b8c031927b9b78f6d68e8bb9cf8a4",
+				"get_variable_value": "8a8819b338d5c8139f1993f96cf078a80ac9f3903c89847a66f10fa060ec1484",
+				"set_variable_value": "4cd620c3be21c3ab98d09dff7f896ab9a04c7d1c9bb216d2dc8cc3ef2b7398ef",
+				"_split_file_reference": "d26ad82dd179c71a7ab64edf681bfc3c5f458b2d5c2243769f5501ce4523dd10",
+				"_read_variable_file": "afc16f7651493f3815a16e930756ce3685dcea3cc876756ca30597632dabde1e",
+				"_write_variable_file": "64577614e47af922a63f96d05ff4192877996e13241f64413eeda921fecf21a6",
+				"_set_file_variable": "d60d7c7ad4d016ac6481aa9b897a1f045ad035cb29b15896194987fea14d7b7a",
+				"calculate_variable_value": "d82a646ab0523634a15e8106786d2ad324f797491276dc27f70ce169bd87c138",
+				"candy_to_dict": "8a53c4234dc73b70705a5aed9a00522674cc64cd8f3a9b83bf8ad4025083d99d",
+				"candy_to_array": "3f1257dd09ce9d8380a4ca917a5d61ddfda3505ef251acfe9dc8fe61aefa1e15",
+				"candy_to_string": "c1210415454f5fd2013588f29d78717d93ef1dd087b1cf8112104dbeb3a91789",
+				"_candy_value_to_string": "dc6c298a02fa94e6b877c2a2c7051fd2a742ea721fc4f09be125e814ec059e37",
+				"_candy_parse_dict": "b0f3d2c029f94f65237f2556dec553159e74e4229c30465138046314b7df0370",
+				"_candy_parse_array": "aaff4d15680d9c2cc3be39e291959f5c24e00bfcdda5f009601806a4b3295900",
+				"_candy_parse_value": "1d9d8465a1a60c4dc3cbe7b02fe2b2413769d47cb438fe9789be9d3e39c79e14",
+				"_candy_split_top_level": "133490995e9344d53be085a5f58e0665a7dddd8a080f7042971473206352b4d6",
+				"_is_quoted_literal": "61f9aa7c45eb1efd06fe0958a320ee5097513297edfb339246ececb0f2ff6c8c",
+				"apply_lexicon_tags": "ea226db2031cb08ca01b3669f5f9faefa2e462594bc93c21bd0257f27e572e39",
+				"translate": "119bfa23b5d90693fb4cb662dc6f7848c402362468eacb591a0d98c1f2ad78c7"
+			},
+			"rest": "79987cdffbb4f46b46e3dd42c2bd028cdef5c7e72276d4255493ba0c8cdee7c9",
+			"variables": [
+				"running_dialogue",
+				"dialogue_running",
+				"use_language",
+				"conversation_tracker",
+				"block_tracker",
+				"line_tracker",
+				"command_symbol",
+				"empty_symbol",
+				"previous_mode",
+				"previous_speaker",
+				"bust_positions",
+				"active_bust_animations",
+				"active_bg_animations",
+				"waiting_for_input",
+				"suspended_media_players",
+				"suspended_bg_nodes",
+				"suspended_bg_animplayers",
+				"suspended_bust_nodes",
+				"suspended_bust_animplayers",
+				"suspended_portrait_nodes",
+				"suspended_portrait_animplayers",
+				"active_media_players",
+				"dialogue_history",
+				"reference_found",
+				"reference_set",
+				"nesting_depth",
+				"if_array",
+				"killswitch",
+				"greenlight",
+				"skip_wait",
+				"for_",
+				"choice_list_data",
+				"choice_lists",
+				"REFERENCE_TERMINATORS",
+				"FILE_VAR_EXTENSIONS",
+				"CFG_DEFAULT_SECTION"
+			],
+			"exports": {
+				"engine_mode": "\"\"",
+				"engine_language": "\"\"",
+				"dialogue_mode": "DialogueModes.Box",
+				"portrait_mode": "PortraitModes.All",
+				"enable_voice": "true",
+				"default_voice_extension": "\".ogg\"",
+				"text_to_speech": "TtsModes.Off",
+				"tts_advanced_fallback": "TtsModes.Simple",
+				"enable_box_font_color": "false",
+				"box_font_color": "",
+				"enable_box_speaker_color": "false",
+				"box_speaker_color": "",
+				"enable_subtitle_font_color": "false",
+				"subtitle_font_color": "",
+				"enable_subtitle_speaker_color": "false",
+				"subtitle_speaker_color": "",
+				"enable_chat_font_color": "false",
+				"chat_font_color": "",
+				"enable_chat_speaker_color": "false",
+				"chat_speaker_color": "",
+				"enable_bubble_font_color": "false",
+				"bubble_font_color": "",
+				"enable_bark_font_color": "false",
+				"bark_font_color": "",
+				"subtitles_show_speaker": "true",
+				"subtitles_speaker_prefix": "\"(\"",
+				"subtitles_speaker_suffix": "\")\"",
+				"chat_show_speaker": "true",
+				"chat_speaker_prefix": "\"\"",
+				"chat_speaker_suffix": "\":\"",
+				"box_end_of_line_string": "\"[pulse freq=1.5 color=black ease=-5.0] ▼[/pulse]\"",
+				"bubbles_end_of_line_string": "\"\"",
+				"subtitles_end_of_line_string": "\"\"",
+				"chat_end_of_line_string": "\"\"",
+				"barks_end_of_line_string": "\"\"",
+				"persistent_chat": "true",
+				"chat_clear_on_end": "true",
+				"chat_hide_on_end": "true",
+				"bubble_exempt_mode": "DialogueModes.Box",
+				"writing_speed": "30",
+				"continue_fast_speed": "60",
+				"continue_slow_speed": "15",
+				"auto_advance": "-1.0",
+				"sync_write_speed_voice": "false",
+				"await_voice_playback": "false",
+				"hide_choice_lists": "true",
+				"vn_mode": "false",
+				"persistent_busts_on_end": "false",
+				"vn_join_effect": "[\"\", \"\"]",
+				"vn_move_from_effect": "[\"\", \"\"]",
+				"vn_move_to_effect": "[\"\", \"\"]",
+				"vn_leave_effect": "[\"\", \"\"]",
+				"persistent_bg_on_end": "true",
+				"lexicon_box_mode": "true",
+				"lexicon_bubbles_mode": "true",
+				"lexicon_subtitles_mode": "true",
+				"lexicon_chat_mode": "true",
+				"lexicon_bark_mode": "true",
+				"mp_count_dispositions": "false",
+				"mp_count_variants": "false",
+				"write_dialogue_history": "true",
+				"llm_mode": "false",
+				"mouse_mode_start": "MouseModes.None",
+				"mouse_mode_end": "MouseModes.None",
+				"mouse_mode_choice": "MouseModes.None",
+				"random_variants": "true",
+				"player_tags": "{\n\"P\": \"Gender\"\n}",
+				"speaker_tags": "{\n\"S\": \"Gender\",\n}",
+				"passed_tags": "[]",
+				"disabled_tags": "[]",
+				"dialogue_suspended": "false",
+				"suspend_portraits": "true",
+				"suspend_voice": "true",
+				"suspend_backgrounds": "true",
+				"suspend_bg_animations": "true",
+				"suspend_bg_effects": "true",
+				"suspend_vn_busts": "true",
+				"suspend_bust_animations": "true",
+				"suspend_bust_effects": "true",
+				"suspend_media": "true",
+				"suspend_audio": "true",
+				"suspend_video": "true",
+				"suspend_images": "true",
+				"suspend_animations": "true",
+				"media_suspend_immune": "[]",
+				"input_enabled": "true",
+				"input_advance_dialogue": "\"Dialogue_Advance\"",
+				"input_speed_dialogue": "\"Dialogue_Speed\"",
+				"input_slow_dialogue": "\"Dialogue_Slow\"",
+				"input_skip_dialogue": "\"Dialogue_Skip\"",
+				"input_player_advance": "\"Dialogue_Advance\"",
+				"ui_elements_paths": "{\n\"backgrounds_path\" = \"Backgrounds\",\n\"busts_path\" = \"Busts\",\n\"dialogue_box_path\" = \"DialogueBox\",\n\"subtitles_path\" = \"Subtitles\",\n\"chat_path\" = \"ChatBox\",\n\"portrait_path\" = \"Portrait\",\n\"history_display_path\" = \"History\",\n\"choices_path\" = \"Choices\",\n\"input_node_path\" = \"Input\",\n\"barks_path\" = \"BarkBubble\"\n}",
+				"media_players_locations": "{\n\"Voice\": \"VoicePlayer\",\n\n\"PEffect\": \"Portrait/PortraitEffectPlayer\",\n\"Effect\": \"MediaPlayers/EffectPlayer\",\n\"Image\": \"MediaPlayers/ImagePlayer\",\n\"Splash\": \"MediaPlayers/SplashPlayer\",\n\"Video\": \"MediaPlayers/VideoPlayer\",\n\"Sound\": \"MediaPlayers/SoundPlayer\",\n\"Ambient\": \"MediaPlayers/AmbientPlayer\",\n\"Music\": \"MediaPlayers/MusicPlayer\",\n\"Speech\": \"MediaPlayers/SpeechPlayer\",\n}",
+				"bubbles_npc_path": "\"/root/Game/Actors\"",
+				"bubbles_player_path": "\"/root/Game/Actors\"",
+				"cs_locations": "{\n\"Player\": \"/root/Game/Actors\",\n\"Actors\": \"/root/Game/Actors\",\n\"Vehicles\": \"\",\n\"Objects\": \"\",\n\"Cameras\": \"/root/Game/Cameras\",\n\"Markers\": \"/root/Game/Pins\",\n\"WP\": \"/root/Game/Waypoints\",\n\"Lights\": \"/root/Game/Lights\",\n}"
+			},
+			"enums": {
+				"DialogueModes": {
+					"Box": 0,
+					"Subtitles": 1,
+					"Chat": 2,
+					"Bubbles": 3,
+					"VN_Bubbles": 4,
+					"Barks": 5,
+					"Voice": 6
+				},
+				"PortraitModes": {
+					"Off": 0,
+					"All": 1,
+					"Player": 2,
+					"NPC": 3,
+					"VN": 4
+				},
+				"TtsModes": {
+					"Off": 0,
+					"Simple": 1,
+					"Advanced": 2
+				},
+				"MouseModes": {
+					"None": -1,
+					"Visible": 0,
+					"Hidden": 1,
+					"Captured": 2,
+					"Confined": 3,
+					"Confined_Hidden": 4
+				}
+			}
+		},
+		"Scripts/Media_Players/Audio_Player.gd": {
+			"functions": {
+				"_on_finished": "39a880c48ec07c041f1e532f25ac5922760c4edb4dc3e20daff17638243f2e24",
+				"unpause": "58fb3e4f69bc1a4f8c8dd99aa1c57393a56cbfd0eef0462789ffebd44ec39791",
+				"reset": "f3376249721fd111a5313c28f284c864734552d768feba34980e44013a4607c5"
+			},
+			"rest": "bc9d5e46128a390d4909b95bd6ef3e6d415070ed39b8b8aa5a53e5a4f3487dd8",
+			"variables": [
+				"pause_count",
+				"pause_mode",
+				"pause_re_wait",
+				"loop_target",
+				"wait_target",
+				"loops_played",
+				"caller"
+			],
+			"exports": {
+				"audio_player": "self",
+				"default_audio_extension": "\".ogg\""
+			}
+		},
+		"Scripts/Media_Players/Audio_Player_2D.gd": {
+			"functions": {
+				"_on_finished": "39a880c48ec07c041f1e532f25ac5922760c4edb4dc3e20daff17638243f2e24",
+				"unpause": "58fb3e4f69bc1a4f8c8dd99aa1c57393a56cbfd0eef0462789ffebd44ec39791",
+				"reset": "f3376249721fd111a5313c28f284c864734552d768feba34980e44013a4607c5"
+			},
+			"rest": "1465e7d519d39888872dbefcbdb166814bce7b850a9ed8b4f5c2a9becf3677b6",
+			"variables": [
+				"pause_count",
+				"pause_mode",
+				"pause_re_wait",
+				"loop_target",
+				"wait_target",
+				"loops_played",
+				"caller"
+			],
+			"exports": {
+				"audio_player": "self",
+				"default_audio_extension": "\".ogg\""
+			}
+		},
+		"Scripts/Media_Players/Audio_Player_3D.gd": {
+			"functions": {
+				"_on_finished": "39a880c48ec07c041f1e532f25ac5922760c4edb4dc3e20daff17638243f2e24",
+				"unpause": "58fb3e4f69bc1a4f8c8dd99aa1c57393a56cbfd0eef0462789ffebd44ec39791",
+				"reset": "f3376249721fd111a5313c28f284c864734552d768feba34980e44013a4607c5"
+			},
+			"rest": "59e44a1447b1dfec31d3a56cf58436750e80f18891f6fe1f94cd6474d6c77990",
+			"variables": [
+				"pause_count",
+				"pause_mode",
+				"pause_re_wait",
+				"loop_target",
+				"wait_target",
+				"loops_played",
+				"caller"
+			],
+			"exports": {
+				"audio_player": "self",
+				"default_audio_extension": "\".ogg\""
+			}
+		},
+		"Scripts/Media_Players/BG_Player.gd": {
+			"functions": {
+				"_on_animation_finished": "3927e86665965ea225168f41e67454aabafe08e859dfcef8eac3557387281926",
+				"unpause": "66afff46c20e0cd510d4f541e93a95d690c1417cef77aa6ad8125b2997320682",
+				"reset": "a56f2e3b0bc5fba53ac8bbdda28b1a9091de754403882a8f294e15bd997049d2"
+			},
+			"rest": "04495fde3501f0baef4ac20b4f249bf9dd39f63a8956675f5aa500cf7f7ff180",
+			"variables": [
+				"pause_count",
+				"pause_mode",
+				"pause_re_wait",
+				"caller"
+			]
+		},
+		"Scripts/Media_Players/Bust_Player.gd": {
+			"functions": {
+				"_on_animation_finished": "3927e86665965ea225168f41e67454aabafe08e859dfcef8eac3557387281926",
+				"unpause": "66afff46c20e0cd510d4f541e93a95d690c1417cef77aa6ad8125b2997320682",
+				"reset": "a56f2e3b0bc5fba53ac8bbdda28b1a9091de754403882a8f294e15bd997049d2"
+			},
+			"rest": "04495fde3501f0baef4ac20b4f249bf9dd39f63a8956675f5aa500cf7f7ff180",
+			"variables": [
+				"pause_count",
+				"pause_mode",
+				"pause_re_wait",
+				"caller"
+			]
+		},
+		"Scripts/Media_Players/Effect_Player.gd": {
+			"functions": {
+				"_on_animation_finished": "99be651a527ddf4529c3dbd9b56b22fd0e6dc5d8610cd6a458932fbec682d95c",
+				"unpause": "a34fcf7da80da92fdea2e6ddbc1daa710c1937c61545b57a10759ef7c2f4c730",
+				"reset": "fed48cb818f17be8dfb0b9d8559e8a568bdca8068a26f71f869eae84496ff911"
+			},
+			"rest": "e0c487adac9f102b39443745ba0bb114c1abc0e7081379f1a9b47bc0799bc357",
+			"variables": [
+				"pause_count",
+				"pause_mode",
+				"pause_re_wait",
+				"loop_target",
+				"wait_target",
+				"loops_played",
+				"duration",
+				"caller"
+			],
+			"exports": {
+				"effect_player": "self"
+			}
+		},
+		"Scripts/Media_Players/Image_Player.gd": {
+			"functions": {
+				"_ready": "24db9034d03f04fc74a61044932b34a1052db5bf7151778cfe985455d6a5b87b",
+				"setup_static": "af454dbae2678d708a4c58914d422db54dba1404af9f3d0931d12269d5481e7e",
+				"setup_animation": "fe1e6148e334797690d199823affb352b3ce5d3759e7704b7ea8203db151a83a",
+				"start": "1e589ebfa64f3c2debd7ebbb5345ee6abfe13b48757927e70a219b36ec3b98cd",
+				"start_static_timer": "5d7b8b2eb2c6b1fefb488ceeb4fc361293146705828f7b31fe9bf0058a345bcc",
+				"start_frame_timer": "e8d3a651b535936e98aafd4e8e2e1656a8e85391131253e0a96cc0be15674fc2",
+				"_on_timer_timeout": "efe3e8c367e16d65af27ab3bcb6761f5fafc6714814c6c37048aeb7c79ba9e2f",
+				"on_cycle_finished": "f90f838f22af473d8d29dc74ac898afc4a9c3f5b4be989e6f415b131187522a2",
+				"unpause": "c3a1858e43a7f106e6b3b91519c5f1a7b72924311fecdb93d888870ffbe757a4",
+				"reset": "7223bf2d0a8092020f01a85dc6f504c9ec3ea106293f7cb8ee9eb0c07f5295e5",
+				"reset_internal": "7dedd7058aa2e63660af499694afa2ff9f1e7231ef97329d45f48d3454e16dbc"
+			},
+			"rest": "d299fbc25c7983307f6194da2b2386ebf73af176be849f4ef6f8d5266d25e966",
+			"variables": [
+				"pause_count",
+				"pause_mode",
+				"pause_re_wait",
+				"loop_target",
+				"wait_target",
+				"loops_played",
+				"frames",
+				"fps",
+				"frame_index",
+				"animated",
+				"static_duration",
+				"caller"
+			],
+			"exports": {
+				"image_player": "self",
+				"default_image_extension": "\".png\"",
+				"default_z": "120"
+			}
+		},
+		"Scripts/Media_Players/Portrait_Player.gd": {
+			"functions": {
+				"_on_animation_finished": "3927e86665965ea225168f41e67454aabafe08e859dfcef8eac3557387281926",
+				"unpause": "66afff46c20e0cd510d4f541e93a95d690c1417cef77aa6ad8125b2997320682",
+				"reset": "a56f2e3b0bc5fba53ac8bbdda28b1a9091de754403882a8f294e15bd997049d2"
+			},
+			"rest": "04495fde3501f0baef4ac20b4f249bf9dd39f63a8956675f5aa500cf7f7ff180",
+			"variables": [
+				"pause_count",
+				"pause_mode",
+				"pause_re_wait",
+				"caller"
+			]
+		},
+		"Scripts/Media_Players/Video_Player.gd": {
+			"functions": {
+				"_ready": "24db9034d03f04fc74a61044932b34a1052db5bf7151778cfe985455d6a5b87b",
+				"_on_finished": "bf6d2f745dfcf58ea88e799dd727944b065a0c53d53bbdadfb681e5769fe3d49",
+				"unpause": "b42dfad91616e9828202df4aa929e169d4298077d58685acc0523e37aaff5b1b",
+				"reset": "3aa2275e59f9f9ce9b5e3867ec523908bb091bda9a04c6a9ee201f8e845c397d"
+			},
+			"rest": "5785a3ab44f1ece13300c8ed4114384607adf4a52298c94178162b8c3c92445c",
+			"variables": [
+				"pause_count",
+				"pause_mode",
+				"pause_re_wait",
+				"loop_target",
+				"wait_target",
+				"loops_played",
+				"caller"
+			],
+			"exports": {
+				"video_player": "self",
+				"default_video_extension": "\".ogv\"",
+				"default_z": "120"
+			}
+		},
+		"Scripts/Media_Players/Voice_Player.gd": {
+			"functions": {
+				"write_begun": "813c279b26e72578623131fb6f2f61886159af4997093f1cc6edbfd8cee8aa60",
+				"write_finished": "2a8f710c742ca6ea8103807cb79322c1dbf906921bac60aec528caaadff6c781"
+			},
+			"rest": "894105fd78b091208c78487fe95d4877e2d74177a7f672fda7b84253be4bfe32",
+			"variables": [
+				"caller"
+			],
+			"exports": {
+				"default_voice_extension": "\".ogg\""
+			}
+		},
+		"Scripts/Testing_Scene.gd": {
+			"functions": {
+				"_ready": "a2680e103974b6fba562d4f846892c5ac7b5e08554d36b35d14fd4c93ae9c656",
+				"test_start": "76584a8f45d13e5083069e7f726402d63aab61e1a6bdf0e92c7113023fb7d62e"
+			},
+			"rest": "4c6a731269722d706f332c53238cb79a42e06587c9b928e176bcb8da0e7737c2",
+			"variables": [],
+			"exports": {
+				"dialogue": "\"test_dialogue\"",
+				"conversation": "\"Conversation_1\"",
+				"block": "\"Block_1\"",
+				"line": "\"0\""
+			}
+		},
+		"Scripts/UI_Elements/Backgrounds.gd": {
+			"functions": {
+				"_ready": "24db9034d03f04fc74a61044932b34a1052db5bf7151778cfe985455d6a5b87b",
+				"_get_layer_folder": "fb5afe879d0a2ac2061e042b924876c545618c05292c25e9f16fe8c497177666",
+				"assign_bg": "d28a1fe5b1145db2b6ef58c87e22d0b3c3389b446aced653a548480d5aa02f58",
+				"stop_bg_animation": "67ba8821f9ba6d1a7884aeb4e2ccd94ef14af64bf3b4b4a99a8bfd7c11c628e3",
+				"clear_bg_nodes": "081a8339757ef37ddc1e7c2301c8dbc6cd9731452b5060f1e5f9b4525951a7b3",
+				"mirror_bg": "30a2a399dcfe36b0e3948481f71dac4d9e4dc276b09798c89220482e73caf51f",
+				"play_bg_effects": "46d97cf38a50aada0c47bba66dcfd6a8e90c5a54c5b0a619e70aa4274bb2b1fe",
+				"_play_single_bg_effect": "36b5e1bbc226e369af254727bd34e92e860a1791640f98309479137972c21e00",
+				"stop_bg_effects": "d2030a02e69aa74d2a1ec09f28f753551ab091a5cd625ef7d7caafb4d660491c",
+				"_scale_bg_to_size": "eada625ae015ee44c1cb427b9ad148efe884d4b68e4f5a8311c9e70cf7e1c2d9"
+			},
+			"rest": "128087f1bbe6dac4d579d8f89dfed0be8ed2faf4d2d0642eb569609069479481",
+			"variables": [
+				"caller",
+				"bg_layer_data"
+			],
+			"exports": {
+				"bg_container": "",
+				"default_image_extension": "\".png\"",
+				"default_sprite_extension": "\".png\"",
+				"default_animated_sprite_extension": "\".tres\"",
+				"default_video_extension": "\".ogv\"",
+				"default_effect_extension": "\".tres\"",
+				"image_fps": "1.0",
+				"sprite_fps": "10.0",
+				"bg_sizes": "{\n\"1\": [1080, 1024],\n\"2\": [1080, 1024],\n\"3\": [1080, 1024],\n}",
+				"default_z": "100"
+			}
+		},
+		"Scripts/UI_Elements/Bust_Scene.gd": {
+			"functions": {
+				"_ready": "24db9034d03f04fc74a61044932b34a1052db5bf7151778cfe985455d6a5b87b",
+				"highlight_speaker": "f94c11eda4159ab581aa1f82c2a4116141e5f1e83aba94cbf848ca6c3ee35055",
+				"end_highlight_speaker": "a9f28dd0b793b48793183090e7bdc7bd5060a70f9c92bc8b9e289293d9ee34e3",
+				"set_bust": "eb6f403418da31746aa17cf05bd8164cf4283748e48eb9931bf544a8a577c384",
+				"move_bust": "c3682b752d0b3d86b2a6b9d62c4451b919b7db58dbdadf253087783807c1dc4a",
+				"clear_old_bust_nodes": "b17024329a9b5a422363d0a8e71e9d4add23ac75eb462b62757ff89c5e5063b7",
+				"stop_bust_animation": "4500b68c579d15814e9534d7ef2554d9bb423b22a163f09ac8feaefa726dce78",
+				"clear_bust_nodes": "34bed4f86ab4459ca56b7ac2634d08fbba3f9ff9a9cce84e76eaead5cbd7c038",
+				"mirror_bust": "77476bea037b62018a91da2d244cc329d199df4302f8ee690a72630dbf8503ac",
+				"_on_play_jml": "221e45c0b621893d2bc9df51e421b474c299074756439e40a142ffab1ccc49b4",
+				"play_bust_effects": "2160ee8807ff1917dc05b2ab4597dcb609b680c0097481acbe9cc759b50b33a3",
+				"_play_single_bust_effect": "d117a2d3939f2304b8a2a0f1bbe379b95fa225f20c32870f185835d791cc5927",
+				"stop_bust_effects": "86ab541567d8973bd89d1d05f1bc191ea1af0777cf0cb39a608524d84506789f",
+				"_scale_bust_to_size": "5b2f97679aceadd5be871170b063efe69a1d8195a1a9ffbd2310047fb8ca02b8"
+			},
+			"rest": "8d5181577ae78a8ad05b873d9f9265851f7716bcc3e81d4eab797ea409b62191",
+			"variables": [
+				"bust_node_data",
+				"caller"
+			],
+			"exports": {
+				"busts_container": "",
+				"highlight_player_1": "",
+				"speech_bubbles_name": "\"SpeechBubble\"",
+				"default_image_extension": "\".png\"",
+				"default_sprite_extension": "\".png\"",
+				"default_animated_sprite_extension": "\".tres\"",
+				"default_video_extension": "\".ogv\"",
+				"default_effect_extension": "\".tres\"",
+				"image_fps": "30.0",
+				"sprite_fps": "30.0",
+				"bust_sizes": "{\n\"1\": [1080, 1024],\n\"2\": [1080, 1024],\n\"3\": [1080, 1024],\n\"4\": [1080, 1024],\n\"5\": [1080, 1024],\n\"6\": [1080, 1024],\n\"7\": [1080, 1024],\n\"8\": [1080, 1024],\n\"9\": [1080, 1024],\n}",
+				"jml_player_name": "\"JML\"",
+				"vn_join_effect": "[\"\", \"\"]",
+				"vn_move_from_effect": "[\"\", \"\"]",
+				"vn_move_to_effect": "[\"\", \"\"]",
+				"vn_leave_effect": "[\"\", \"\"]",
+				"speaker_highlight": "{\n\"NameTag\": false,\n\"Outline\": false,\n\"OutlineHideReal\": false,\n\"Scale\": false,\n\"Scale_Size\": 1.1,\n\"Animation_1\": false,\n\"AnimationName_1\": \"highlight\",\n\"Billboard\": true,\n}",
+				"billboard_on": "BaseMaterial3D.BILLBOARD_ENABLED",
+				"billboard_off": "BaseMaterial3D.BILLBOARD_DISABLED",
+				"default_z": "100"
+			}
+		},
+		"Scripts/UI_Elements/Chat_Box.gd": {
+			"functions": {
+				"_ready": "390d79b5ac8063d60909417890fa9d665ccc801e2571bf5614572c5b0e68b268",
+				"x_write_begun": "fe0ebf2c079b5ff9ced461f50707e138fb280cf09bdbf6776eadf3b2f01ba066",
+				"x_write_finished": "4d79aa4c1787f4ad22f019465956da586edcaa606ca850547b676450349b8641"
+			},
+			"rest": "db8498bd78379908d2ad52e853a47876ef202042fc2b0f9519c6e8be6ba82493",
+			"variables": [
+				"caller"
+			],
+			"exports": {
+				"dialogue_node": "",
+				"enable_text_color": "true",
+				"text_color": "Color(1, 1, 1)",
+				"enable_speaker_color": "true",
+				"speaker_color": "Color(1, 1, 1)",
+				"default_z": "100"
+			}
+		},
+		"Scripts/UI_Elements/Choice_Button.gd": {
+			"functions": {
+				"setup": "49516851ec1ff0a3c8252b37428fa9ab7f2634bb0d0c3166168e77acb17c5eb9",
+				"_set_label": "0eadd36afa2220cad73b007d3cb61f331c8dfaf33f0a88bce86a30a389deffbb",
+				"_set_tooltip": "26741ef4365cc37d10c4c4b9c9c66843b650b1d1fc856e80efecb940d0f9d42a",
+				"_toggle_enabled": "a0af75a1b3c675fdd6640bec104504147808d2f70b6400e077ec65be23cbfc62",
+				"_toggle_active": "fdf02c8ed9f3c436aea7971d1857c82877dc540f4550ba01757aa2d1935848f2",
+				"_toggle_invisible": "18b18213725930dec9163777bad74c19f6428e383035193ffde82ec785417516",
+				"_choice_selected": "04e5bccb7b9f8518b84f6fe7151069e57c13baa3a0872fb7edf069fc4fc45fe5"
+			},
+			"rest": "2a0bfab148f58419e0c4a1c987feb86aaa589a93802bf5dbdb2cae2013b95083",
+			"variables": [
+				"caller",
+				"parent_category",
+				"parent_menu",
+				"category_name",
+				"choice_name",
+				"general_custom",
+				"category_custom",
+				"choice_custom",
+				"tags",
+				"label",
+				"tooltip",
+				"choice_enabled",
+				"choice_active",
+				"choice_invisible"
+			],
+			"exports": {
+				"choice_label": "",
+				"choice_tooltip": "",
+				"choice_button": ""
+			}
+		},
+		"Scripts/UI_Elements/Choice_Category.gd": {
+			"functions": {
+				"_ready": "f8c746aab4d598259226b16dd91f86424a8b98453c889d312260e265c0e93869",
+				"_set_category_title": "1426666d0be6aaffc668384365dbb733ce8a71051421ac408397e74e5b6d706b",
+				"_set_category_prompt": "89149b6b77891bf65a34e5fcb5ee845d1d3b80573ab675f088e6ef76c1e870d9"
+			},
+			"rest": "aa62e2bf8e20e55c9dfa88337f4f65da53791abddfb31003ca43c472efa8423c",
+			"variables": [
+				"caller",
+				"parent_menu",
+				"general_title",
+				"category_title",
+				"general_prompt",
+				"category_prompt",
+				"general_custom",
+				"category_custom",
+				"tags"
+			],
+			"exports": {
+				"button_list": "",
+				"title_node": "",
+				"prompt_node": ""
+			}
+		},
+		"Scripts/UI_Elements/Choice_Menu.gd": {
+			"functions": {
+				"_ready": "109ec1be36a3d75ccee8040402748050b82ec6593af9400b1dc437acd3623d5a",
+				"_set_general_title": "13d37cd8bbfaa875c47d4272c14a8d266aff82bfe6d8971fbf462eaf8b2b9a2c",
+				"_set_general_prompt": "b88cf3612db655698c679a8b25efe884b432c3521991177adfe69ec254ff4c68",
+				"_on_timer_timeout": "45381cde2cc31608023c85d7c7e78f1592fa06337ba319688bb923cbf624ec4a",
+				"deactivate": "3eecdf70ab1a1372a4ce9f87e9017647c915ac4c5cef5840bca3910496b388e9",
+				"reactivate": "242c2690695b9b24e148a40677c0a5728a1992dc8c6fd9a2a19aacb7f65fab8a",
+				"x_initialization_finished": "66e949b6a884b7fb5a266403304c6771bfc2db135d25188ce758dc74524af5de",
+				"hide_old_menus": "3a85dc522c3c8393360c312bb5f97db69e26c6c9ce6622770c0145a481a7ad0a"
+			},
+			"rest": "0687f18344146ccd448b29a7e638f1737bc66bf011a9ad119d46c457e4d612a1",
+			"variables": [
+				"caller",
+				"nesting_depth",
+				"title",
+				"prompt",
+				"custom",
+				"tags"
+			],
+			"exports": {
+				"category_list": "",
+				"timer_list": "",
+				"shield": "",
+				"title_node": "",
+				"prompt_node": "",
+				"never_hide": "false"
+			}
+		},
+		"Scripts/UI_Elements/Dialogue_Box.gd": {
+			"functions": {
+				"_ready": "390d79b5ac8063d60909417890fa9d665ccc801e2571bf5614572c5b0e68b268",
+				"x_write_begun": "fe0ebf2c079b5ff9ced461f50707e138fb280cf09bdbf6776eadf3b2f01ba066",
+				"x_write_finished": "4d79aa4c1787f4ad22f019465956da586edcaa606ca850547b676450349b8641"
+			},
+			"rest": "b49546a6fe72425efac85251d541e12cf6cd7cb6036eebf2e4ed95dce5bf1eec",
+			"variables": [
+				"caller"
+			],
+			"exports": {
+				"dialogue_node": "",
+				"speaker_node": "",
+				"enable_text_color": "true",
+				"text_color": "Color(1, 1, 1)",
+				"enable_speaker_color": "true",
+				"speaker_color": "Color(1, 1, 1)",
+				"default_z": "100"
+			}
+		},
+		"Scripts/UI_Elements/History_Display.gd": {
+			"functions": {
+				"_ready": "516a447e66f50b084efde8fe874b2c0957d26a0f84ac49d94f3a5cb79106aac4",
+				"show_history": "06a157d04dddc1e73f6bf28bc0bffd5414315cefbc80f5d71b25b06d2de54c33",
+				"update_history_display": "e43830d56c68071390718a6022eefd3b96f549b5fba59b893764e6f2fb4155aa",
+				"close_history": "eacde90d2ab946d528e3f089ee824b64bd477cd864d6430c9e7531e95e5ee485"
+			},
+			"rest": "05241da35c6dca7e3cfe48ec174f8ff08f8b564630395081bf56ab21e8a14edf",
+			"variables": [
+				"caller"
+			],
+			"exports": {
+				"log_node": "",
+				"default_z": "100"
+			}
+		},
+		"Scripts/UI_Elements/Input.gd": {
+			"functions": {
+				"_ready": "0de2d422a36d15eb28cbc4365e40b7913bd3716416ce0b14404eb276ff053bfe",
+				"setup": "74fb7e354636916f58ef8e677d07336054467e2e8260a4e7aa20f34085d286fc",
+				"config": "ac73f5946a06cc4ce90d03665cff370b205d2262b9a4ac30af786183cfb258bf",
+				"_set_instructions": "0494ec62683e31b69980b7d45c68a544d9f14eee3c23c87044e9d94df3d55fb8",
+				"_set_placeholder_text": "f3fde3b7212eda66f1ab60fd333e9edd09ae794e331a6ac86997e6c9414bf601",
+				"_set_default_text": "4b719630031800894a265817312ebd8c4ae231fd1bb6f7b9fcb388d1f94e5709",
+				"submit": "44738b12f1857935f663f7b01c7c0405a8893dd79ddbb5c160f974fde1523289",
+				"cancel": "04a9dd0cc4892c89fd75b068594d034b61f83009456b9d56e17378af9b915fd6",
+				"_on_input_changed": "86deeea49e7a9f659cfc0a0c93c6d0975ed9eace9500b3597055b927e2390156",
+				"store_to_variable": "353d6923da0af5afb706fe13a19e285687b126cb666062b3f60daf97d623d50b",
+				"check_input": "7ace6b535005ec9cac946f4e62beba12858bce2bdfc2031d60e8b9f62a0e03ae"
+			},
+			"rest": "c39e18be20c0705550e8384f4227fe183d7cd34f46b2cefeaffa209c0b5484ea",
+			"variables": [
+				"caller",
+				"depth",
+				"input_valid",
+				"save_variable",
+				"config_mode",
+				"submit_mode",
+				"cancel_mode",
+				"char_min",
+				"char_max",
+				"word_min",
+				"word_max",
+				"blacklist",
+				"whitelist",
+				"regex",
+				"allow_uppercase",
+				"allow_lowercase",
+				"allow_numbers",
+				"allow_decimals",
+				"allow_punctuation",
+				"allow_special",
+				"allow_spaces",
+				"show_errors",
+				"enter_behavior"
+			],
+			"exports": {
+				"input_line_path": "",
+				"input_instructions_node": "",
+				"input_error_node": "",
+				"input_cancel_button": "",
+				"input_confirm_button": "",
+				"default_z": "90"
+			}
+		},
+		"Scripts/UI_Elements/Portrait.gd": {
+			"functions": {
+				"_ready": "24db9034d03f04fc74a61044932b34a1052db5bf7151778cfe985455d6a5b87b",
+				"receive_portrait": "73a663c56a7255df06a088165e842dc378ac46f32e19ffc1fc5783e07b038ea7",
+				"animatedsprite_portrait": "3502fbbe9008f2c63af041081133b5f1c68d2ef18b9500cbd174e244aaf639e5",
+				"texturerect_portrait": "6918b4037480246892bb40741a843f15fd601ad8d1971ccb905c8a502a0d7dda",
+				"texturebutton_portrait": "eb2a0a9593d135c7f07891894b1a7c96e1547bafb450d8bc3fbca27338968379",
+				"sprite_portrait": "58c45b3af8c95a160e58e1c2004543b1bc1eb55b2cc80181eafe385530e8ade9",
+				"video_portrait": "7b030b4da36ac5ae9126af6034437c3e061d896d2f765d332c4344a721eedb74",
+				"no_portrait": "32f5e7308d10e03a5685738a71746bcd2ffbfe493fc400dec425b7b4bfd88922",
+				"x_write_begun": "fe0ebf2c079b5ff9ced461f50707e138fb280cf09bdbf6776eadf3b2f01ba066",
+				"x_write_finished": "4d79aa4c1787f4ad22f019465956da586edcaa606ca850547b676450349b8641"
+			},
+			"rest": "6510916a5b213f86fc8663eb9bf2ed290b0301fae3534e67f3912413ddfc282b",
+			"variables": [
+				"caller"
+			],
+			"exports": {
+				"portrait_node": "",
+				"portrait_bg": "",
+				"portrait_fg": "",
+				"portrait_effect_player": "",
+				"default_image_extension": "\".png\"",
+				"default_sprite_extension": "\".png\"",
+				"default_animated_sprite_extension": "\".tres\"",
+				"default_video_extension": "\".ogv\"",
+				"image_fps": "1.0",
+				"sprite_fps": "8.0",
+				"portrait_h": "256",
+				"portrait_w": "256",
+				"default_z": "100"
+			}
+		},
+		"Scripts/UI_Elements/Subtitles.gd": {
+			"functions": {
+				"_ready": "390d79b5ac8063d60909417890fa9d665ccc801e2571bf5614572c5b0e68b268",
+				"x_write_begun": "fe0ebf2c079b5ff9ced461f50707e138fb280cf09bdbf6776eadf3b2f01ba066",
+				"x_write_finished": "4d79aa4c1787f4ad22f019465956da586edcaa606ca850547b676450349b8641"
+			},
+			"rest": "92287008194e362dba0a6f35fbac462640ecbceee6dd336a4e4ddac1250bf7a2",
+			"variables": [
+				"caller"
+			],
+			"exports": {
+				"dialogue_node": "",
+				"enable_text_color": "true",
+				"text_color": "Color(1, 1, 1)",
+				"enable_speaker_color": "true",
+				"speaker_color": "Color(1, 1, 1)",
+				"default_z": "100"
+			}
+		},
+		"Scripts/User_Data/Candy_Database.gd": {
+			"functions": {
+
+			},
+			"rest": "bfe6651106d299cc94ff3817b80f5721a5872848383c819a891c43b62d74983c",
+			"variables": [
+				"creator_flag_list",
+				"creator_disposition_list",
+				"creator_actor_list",
+				"creator_role_list",
+				"substitution_table",
+				"lexicon",
+				"variables",
+				"flags",
+				"roles",
+				"player_refs",
+				"current_player",
+				"actors",
+				"general_dialogue_history"
+			]
+		},
+		"Scripts/User_Data/Candy_Functions.gd": {
+			"functions": {
+				"change_game_state": "cd2065f93cc0b917887fbe52b4f8902061fa9ee187ae4c5f0260bd57253aa769",
+				"open_instance_history": "70dde86de9bd29590f6d4d05ead7e9251753f5ae6fb2a2df7c74533aa412b9bf",
+				"open_general_history": "8b1d987c3dddad14db7dcf2d87dcfcb642fa7ce67419f576fa38dfa860a59c0c",
+				"_on_lexicon_clicked": "c699d4f18c2fd4d005a1c95033f81a14f1897a5d1d5d9db98e7c8da5b7faa3cb",
+				"clear_busts_ood": "37cc24206c31c61d114560da02f4221e27259e35b3d9a59525c9a24d7199ea80",
+				"clear_bg_layers_ood": "faf3d390faa96785d4d6e516beded8702be0adce72bc2f72461a13d427c6c5f7",
+				"tts": "99b0a4c3ea6b6663078a4062843cf35e30019840d3b980a54b9e73e24cdd34f0",
+				"llm_query": "825ff8941265cfc68cbef1bf03155d3dfa3baf02d03877b5c0309d0b6712287d",
+				"x_new_line": "c74e085521cdf6e6b0ec8fc4071c7cae7ebf1596794adbc14c752ff0faed21fc",
+				"x_command_start": "21ec0218bf7764cf0ef088063cd5ff43920563b9c4c67cfcedfd22b15e496944",
+				"x_new_speech_start": "bb5b4c902ef00364ed1e6c81f9c613b16228f041b29a6f6036814303e73c7d7a",
+				"x_new_speech_display": "aedda22e6b8a6d29cbc995874a3830463ab98d4d73e9b06b2ea16b832fabc176",
+				"x_dialogue_end": "d70f447ceb88336518cc10a5ad4a3f69a7618f2dc449ee885e3343933c5a71f6",
+				"x_flag_changed": "628fedf801d11026f4b53eb18492a108083de0df5b7aef950011f82a96fb5bff"
+			},
+			"rest": "ba32a9f30df0a853864c15e58aff077a41cbfdb78a5b833991a4cf3faa03d319",
+			"variables": []
+		},
+		"Scripts/User_Data/Candy_Localizations.gd": {
+			"functions": {
+
+			},
+			"rest": "33bc4282249a5ef255fc59f919d98d4c3166fe7d5564fc34f3ab4c14d9f822d1",
+			"variables": [
+				"display_names",
+				"choice_menu_titles",
+				"choice_menu_prompts",
+				"choice_category_titles",
+				"choice_category_prompts",
+				"choice_button_labels",
+				"choice_button_tooltips",
+				"input_instructions",
+				"input_placeholder_texts",
+				"input_default_texts",
+				"input_blacklists",
+				"input_whitelists",
+				"input_error_messages"
+			]
+		},
+		"Scripts/User_Data/Candy_Properties.gd": {
+			"functions": {
+
+			},
+			"rest": "de6e764b56e5cae24df03f010478eab9d542090779982d91489565c98de6b176",
+			"variables": [
+				"language",
+				"singleton_symbol",
+				"node_symbol",
+				"vardict_symbol",
+				"super_singleton_symbol",
+				"super_node_symbol",
+				"super_vardict_symbol",
+				"role_symbol",
+				"text_var_symbol_start",
+				"text_var_symbol_end",
+				"substitution_symbol",
+				"separator_symbol",
+				"file_var_symbol",
+				"dialogues_folder",
+				"portraits_folder",
+				"busts_folder",
+				"sprite_folder",
+				"voice_folder",
+				"background_folder",
+				"image_folder",
+				"video_folder",
+				"audio_folder",
+				"bust_scenes_folder",
+				"bg_scenes_folder",
+				"input_menus_folder",
+				"choice_menus_folder",
+				"choice_categories_folder",
+				"choice_buttons_folder",
+				"export_folder",
+				"cs_sprite_fps",
+				"default_sprite_extension",
+				"default_animated_sprite_extension",
+				"animated_image_fps",
+				"while_safety_break",
+				"BBCODE_TAGS_SIMPLE",
+				"BBCODE_TAGS_EQUALS",
+				"BBCODE_TAGS_SPACE"
+			]
+		}
+	}
+}

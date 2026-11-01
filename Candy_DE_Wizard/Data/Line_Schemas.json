@@ -1,0 +1,7322 @@
+{
+	"format": 1,
+	"creator_version": "1.2.0",
+	"built": "2026-10-21T22:10:42Z",
+	"schemas": {
+		"Await": [
+			{
+				"id": "Signal",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Variable",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"BG_Effect_Pause": [
+			{
+				"id": "Layers",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Effects",
+						"widget": "map",
+						"fields": [
+							{
+								"id": "Lines",
+								"widget": "line_edit",
+								"default": "-1"
+							},
+							{
+								"id": "All",
+								"widget": "line_edit",
+								"default": "0"
+							},
+							{
+								"id": "Pause_Loop_Start",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Pause_Loop_End",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Pause_Loop_Resume",
+								"widget": "line_edit",
+								"default": "Return"
+							},
+							{
+								"id": "FPS",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Library",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Take_Hold",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Custom_Data",
+								"widget": "map",
+								"stored_in": "Meta",
+								"entries": "values",
+								"entry_prefix": "Custom",
+								"start_entries": 1,
+								"value": {
+									"default": ""
+								}
+							}
+						],
+						"entry_prefix": "Effect"
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Layer"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"BG_Effect_Play": [
+			{
+				"id": "Layers",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Effects",
+						"widget": "map",
+						"fields": [
+							{
+								"id": "Library",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Loops",
+								"widget": "line_edit",
+								"default": "1"
+							},
+							{
+								"id": "Duration",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Stop_Frame",
+								"widget": "line_edit",
+								"default": "0"
+							},
+							{
+								"id": "Wait_Loops",
+								"widget": "line_edit",
+								"default": "0"
+							},
+							{
+								"id": "Wait_Time",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "FPS",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Take_Hold",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Custom_Data",
+								"widget": "map",
+								"stored_in": "Meta",
+								"entries": "values",
+								"entry_prefix": "Custom",
+								"start_entries": 1,
+								"value": {
+									"default": ""
+								}
+							}
+						],
+						"entry_prefix": "Effect"
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Layer"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"BG_Effect_Resume": [
+			{
+				"id": "Layers",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Effects",
+						"widget": "map",
+						"fields": [
+							{
+								"id": "Library",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Pause_Loop_Resume",
+								"widget": "line_edit",
+								"default": "null"
+							},
+							{
+								"id": "Take_Hold",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Custom_Data",
+								"widget": "map",
+								"stored_in": "Meta",
+								"entries": "values",
+								"entry_prefix": "Custom",
+								"start_entries": 1,
+								"value": {
+									"default": ""
+								}
+							}
+						],
+						"entry_prefix": "Effect"
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Layer"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"BG_Effect_Skip": [
+			{
+				"id": "Layers",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Effects",
+						"widget": "map",
+						"fields": [
+							{
+								"id": "Time",
+								"widget": "line_edit",
+								"default": "0"
+							},
+							{
+								"id": "FPS",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Library",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Take_Hold",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Custom_Data",
+								"widget": "map",
+								"stored_in": "Meta",
+								"entries": "values",
+								"entry_prefix": "Custom",
+								"start_entries": 1,
+								"value": {
+									"default": ""
+								}
+							}
+						],
+						"entry_prefix": "Effect"
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Layer"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"BG_Effect_Stop": [
+			{
+				"id": "Layers",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Effects",
+						"widget": "map",
+						"fields": [
+							{
+								"id": "Stop_Frame",
+								"widget": "line_edit",
+								"default": "Clear"
+							},
+							{
+								"id": "Loops",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Duration",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "FPS",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Library",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Take_Hold",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Custom_Data",
+								"widget": "map",
+								"stored_in": "Meta",
+								"entries": "values",
+								"entry_prefix": "Custom",
+								"start_entries": 1,
+								"value": {
+									"default": ""
+								}
+							}
+						],
+						"entry_prefix": "Effect"
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Layer"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"BG_Effect_Wait": [
+			{
+				"id": "Layers",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Effects",
+						"widget": "map",
+						"fields": [
+							{
+								"id": "Wait_Loops",
+								"widget": "line_edit",
+								"default": "0"
+							},
+							{
+								"id": "Wait_Time",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "FPS",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Library",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Custom_Data",
+								"widget": "map",
+								"stored_in": "Meta",
+								"entries": "values",
+								"entry_prefix": "Custom",
+								"start_entries": 1,
+								"value": {
+									"default": ""
+								}
+							}
+						],
+						"entry_prefix": "Effect"
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Layer"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"BG_Mirror": [
+			{
+				"id": "Layers",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Axis",
+						"widget": "line_edit",
+						"default": "Reset"
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Layer"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"BG_Pause": [
+			{
+				"id": "Layers",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Lines",
+						"widget": "line_edit",
+						"default": "-1"
+					},
+					{
+						"id": "All",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Pause_Loop_Start",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Pause_Loop_End",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Pause_Loop_Resume",
+						"widget": "line_edit",
+						"default": "Return"
+					},
+					{
+						"id": "Pause_Volume",
+						"widget": "line_edit",
+						"default": "null"
+					},
+					{
+						"id": "Pause_Volume_Time",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Resume_Volume_Time",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Layer"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"BG_Play": [
+			{
+				"id": "Layers",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "File",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Animation",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Loops",
+						"widget": "line_edit",
+						"default": "1"
+					},
+					{
+						"id": "Duration",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Stop_Frame",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Wait_Loops",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Wait_Time",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Layer"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"BG_Remove": [
+			{
+				"id": "Layers",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Layer"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"BG_Resume": [
+			{
+				"id": "Layers",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Pause_Loop_Resume",
+						"widget": "line_edit",
+						"default": "null"
+					},
+					{
+						"id": "Resume_Volume_Time",
+						"widget": "line_edit",
+						"default": "null"
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Layer"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"BG_Scene": [
+			{
+				"id": "Scene",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Take_Hold",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"BG_Skip": [
+			{
+				"id": "Layers",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Time",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Layer"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"BG_Stop": [
+			{
+				"id": "Layers",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Stop_Frame",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Loops",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Duration",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Layer"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"BG_Wait": [
+			{
+				"id": "Layers",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Wait_Loops",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Wait_Time",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Layer"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Bridge": [
+			{
+				"id": "Conversation",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Block",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Line",
+				"widget": "line_edit",
+				"default": "0"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Call": [
+			{
+				"id": "Function",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Arguments",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Variable",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Await",
+				"widget": "line_edit",
+				"default": "1"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Choice_List": [
+			{
+				"id": "Menu_Scene",
+				"widget": "line_edit",
+				"default": "Default.tscn"
+			},
+			{
+				"id": "Category_Scene",
+				"widget": "line_edit",
+				"default": "Default.tscn"
+			},
+			{
+				"id": "Button_Scene",
+				"widget": "line_edit",
+				"default": "Default.tscn"
+			},
+			{
+				"id": "Title",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Prompt",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Tags",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Main",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Mouse",
+				"widget": "line_edit",
+				"default": "Default"
+			},
+			{
+				"id": "Hide_Menu",
+				"widget": "line_edit",
+				"default": "0"
+			},
+			{
+				"id": "Setup",
+				"widget": "group",
+				"fields": [
+					{
+						"id": "Conversation",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Block",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Line",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Type",
+						"widget": "line_edit",
+						"default": "Bridge"
+					}
+				]
+			},
+			{
+				"id": "Timers",
+				"widget": "list",
+				"fields": [
+					{
+						"id": "Time",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Auto",
+						"widget": "line_edit",
+						"default": "Start"
+					},
+					{
+						"id": "Loops",
+						"widget": "line_edit",
+						"default": "1"
+					},
+					{
+						"id": "Tags",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Setup",
+						"widget": "group",
+						"fields": [
+							{
+								"id": "Conversation",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Block",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Line",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Type",
+								"widget": "line_edit",
+								"default": "Bridge"
+							}
+						]
+					},
+					{
+						"id": "Timeout",
+						"widget": "group",
+						"fields": [
+							{
+								"id": "Conversation",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Block",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Line",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Hide_Menu",
+								"widget": "line_edit",
+								"default": "null"
+							}
+						]
+					},
+					{
+						"id": "Timer_Choices",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry": "named",
+				"entry_prefix": "Timer"
+			},
+			{
+				"id": "Categories",
+				"widget": "list",
+				"fields": [
+					{
+						"id": "Category_Scene",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Button_Scene",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Title",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Prompt",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Tags",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Mouse",
+						"widget": "line_edit",
+						"default": "Default"
+					},
+					{
+						"id": "Hide_Menu",
+						"widget": "line_edit",
+						"default": "null"
+					},
+					{
+						"id": "Setup",
+						"widget": "group",
+						"fields": [
+							{
+								"id": "Conversation",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Block",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Line",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Type",
+								"widget": "line_edit",
+								"default": "Bridge"
+							}
+						]
+					},
+					{
+						"id": "Choices",
+						"widget": "list",
+						"fields": [
+							{
+								"id": "Label",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Tooltip",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Button_Scene",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Tags",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Enabled",
+								"widget": "line_edit",
+								"default": "1"
+							},
+							{
+								"id": "Active",
+								"widget": "line_edit",
+								"default": "1"
+							},
+							{
+								"id": "Invisible",
+								"widget": "line_edit",
+								"default": "0"
+							},
+							{
+								"id": "Navigate",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Setup",
+								"widget": "group",
+								"fields": [
+									{
+										"id": "Conversation",
+										"widget": "line_edit",
+										"default": ""
+									},
+									{
+										"id": "Block",
+										"widget": "line_edit",
+										"default": ""
+									},
+									{
+										"id": "Line",
+										"widget": "line_edit",
+										"default": ""
+									},
+									{
+										"id": "Type",
+										"widget": "line_edit",
+										"default": "Bridge"
+									}
+								]
+							},
+							{
+								"id": "Finish",
+								"widget": "group",
+								"fields": [
+									{
+										"id": "Type",
+										"widget": "line_edit",
+										"default": "Bridge"
+									},
+									{
+										"id": "Hide_Menu",
+										"widget": "line_edit",
+										"default": "null"
+									},
+									{
+										"id": "Conversation",
+										"widget": "line_edit",
+										"default": ""
+									},
+									{
+										"id": "Block",
+										"widget": "line_edit",
+										"default": ""
+									},
+									{
+										"id": "Line",
+										"widget": "line_edit",
+										"default": ""
+									},
+									{
+										"id": "Levels",
+										"widget": "line_edit",
+										"default": "1"
+									}
+								]
+							},
+							{
+								"id": "Custom_Data",
+								"widget": "map",
+								"stored_in": "Meta",
+								"entries": "values",
+								"entry_prefix": "Custom",
+								"start_entries": 1,
+								"value": {
+									"default": ""
+								}
+							}
+						],
+						"entry": "named",
+						"entry_prefix": "Choice"
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry": "named",
+				"entry_prefix": "Category"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Choice_Status": [
+			{
+				"id": "Menu_Mode",
+				"widget": "line_edit",
+				"default": "Last"
+			},
+			{
+				"id": "Menu_Tags",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Category_Mode",
+				"widget": "line_edit",
+				"default": "Last"
+			},
+			{
+				"id": "Category_Tags",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Choice_Mode",
+				"widget": "line_edit",
+				"default": "Last"
+			},
+			{
+				"id": "Choice_Tags",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Enable",
+				"widget": "line_edit",
+				"default": "-"
+			},
+			{
+				"id": "Activate",
+				"widget": "line_edit",
+				"default": "-"
+			},
+			{
+				"id": "Show",
+				"widget": "line_edit",
+				"default": "-"
+			},
+			{
+				"id": "Label",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Tooltip",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Comment": [
+			{
+				"id": "Comment",
+				"widget": "text_edit",
+				"default": ""
+			},
+			{
+				"id": "Color",
+				"widget": "color",
+				"default": "Color(1, 1, 1, 1)"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"CS_Anim_Pause": [
+			{
+				"id": "Targets",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Node",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Lines",
+						"widget": "line_edit",
+						"default": "-1"
+					},
+					{
+						"id": "All",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Pause_Loop_Start",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Pause_Loop_End",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Pause_Loop_Resume",
+						"widget": "line_edit",
+						"default": "Return"
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Target"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"CS_Anim_Play": [
+			{
+				"id": "Targets",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Node",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Animation",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Loops",
+						"widget": "line_edit",
+						"default": "1"
+					},
+					{
+						"id": "Duration",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Stop_Frame",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Wait_Loops",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Wait_Time",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Target"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"CS_Anim_Resume": [
+			{
+				"id": "Targets",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Node",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Pause_Loop_Resume",
+						"widget": "line_edit",
+						"default": "null"
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Target"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"CS_Anim_Skip": [
+			{
+				"id": "Targets",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Node",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Time",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Target"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"CS_Anim_Stop": [
+			{
+				"id": "Targets",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Node",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Stop_Frame",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Loops",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Duration",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Target"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"CS_Anim_Wait": [
+			{
+				"id": "Targets",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Node",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Wait_Loops",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Wait_Time",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Target"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"CS_Cam": [
+			{
+				"id": "Targets",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Camera"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"CS_Light": [
+			{
+				"id": "Targets",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Color",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Energy",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Operator",
+						"widget": "line_edit",
+						"default": "="
+					},
+					{
+						"id": "Time",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Light"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"CS_Look": [
+			{
+				"id": "Markers",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Nodes",
+						"widget": "map",
+						"fields": [
+							{
+								"id": "Axis",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Ignore_Y",
+								"widget": "line_edit",
+								"default": "0"
+							},
+							{
+								"id": "Progression",
+								"widget": "line_edit",
+								"default": "Time"
+							},
+							{
+								"id": "Time",
+								"widget": "line_edit",
+								"default": "0"
+							},
+							{
+								"id": "Speed",
+								"widget": "line_edit",
+								"default": "0"
+							},
+							{
+								"id": "Custom_Data",
+								"widget": "map",
+								"stored_in": "Meta",
+								"entries": "values",
+								"entry_prefix": "Custom",
+								"start_entries": 1,
+								"value": {
+									"default": ""
+								}
+							}
+						],
+						"entry_prefix": "Node"
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Marker"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"CS_Move": [
+			{
+				"id": "Targets",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Movement",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Data",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Target"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"CS_Position": [
+			{
+				"id": "Markers",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Nodes",
+						"widget": "map",
+						"fields": [
+							{
+								"id": "Rotate",
+								"widget": "line_edit",
+								"default": "1"
+							},
+							{
+								"id": "Progression",
+								"widget": "line_edit",
+								"default": "Time"
+							},
+							{
+								"id": "Time",
+								"widget": "line_edit",
+								"default": "0"
+							},
+							{
+								"id": "Speed",
+								"widget": "line_edit",
+								"default": "0"
+							},
+							{
+								"id": "Turn_Progression",
+								"widget": "line_edit",
+								"default": "Move"
+							},
+							{
+								"id": "Turn_Time",
+								"widget": "line_edit",
+								"default": "0"
+							},
+							{
+								"id": "Turn_Speed",
+								"widget": "line_edit",
+								"default": "0"
+							},
+							{
+								"id": "Custom_Data",
+								"widget": "map",
+								"stored_in": "Meta",
+								"entries": "values",
+								"entry_prefix": "Custom",
+								"start_entries": 1,
+								"value": {
+									"default": ""
+								}
+							}
+						],
+						"entry_prefix": "Node"
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Marker"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"CS_Scene": [
+			{
+				"id": "Targets",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Instances",
+						"widget": "map",
+						"fields": [
+							{
+								"id": "Scene",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Custom_Data",
+								"widget": "map",
+								"stored_in": "Meta",
+								"entries": "values",
+								"entry_prefix": "Custom",
+								"start_entries": 1,
+								"value": {
+									"default": ""
+								}
+							}
+						],
+						"entry_prefix": "Instance"
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Target"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"CS_Sprite_Pause": [
+			{
+				"id": "Targets",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Node",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Lines",
+						"widget": "line_edit",
+						"default": "-1"
+					},
+					{
+						"id": "All",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Pause_Loop_Start",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Pause_Loop_End",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Pause_Loop_Resume",
+						"widget": "line_edit",
+						"default": "Return"
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Target"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"CS_Sprite_Play": [
+			{
+				"id": "Targets",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Node",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "File",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Animation",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Loops",
+						"widget": "line_edit",
+						"default": "1"
+					},
+					{
+						"id": "Duration",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Stop_Frame",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Wait_Loops",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Wait_Time",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Target"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"CS_Sprite_Resume": [
+			{
+				"id": "Targets",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Node",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Pause_Loop_Resume",
+						"widget": "line_edit",
+						"default": "null"
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Target"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"CS_Sprite_Skip": [
+			{
+				"id": "Targets",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Node",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Time",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Target"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"CS_Sprite_Stop": [
+			{
+				"id": "Targets",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Node",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Stop_Frame",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Loops",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Duration",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Target"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"CS_Sprite_Wait": [
+			{
+				"id": "Targets",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Node",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Wait_Loops",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Wait_Time",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Target"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"CS_Toggle": [
+			{
+				"id": "Targets",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Method",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Properties",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Value",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Target"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"CS_Visible": [
+			{
+				"id": "Targets",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Visibility",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Target"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Custom": [
+			{
+				"id": "Command",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Data",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Dialogue_Mode": [
+			{
+				"id": "Mode",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Bubbles_Exempt_Mode",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Revert",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Disposition": [
+			{
+				"id": "Reference",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Disposition",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Effect_Pause": [
+			{
+				"id": "Players",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Lines",
+						"widget": "line_edit",
+						"default": "-1"
+					},
+					{
+						"id": "All",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Pause_Loop_Start",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Pause_Loop_End",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Pause_Loop_Resume",
+						"widget": "line_edit",
+						"default": "Return"
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Player"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Effect_Play": [
+			{
+				"id": "Players",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Library",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Animation",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Loops",
+						"widget": "line_edit",
+						"default": "1"
+					},
+					{
+						"id": "Duration",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Stop_Frame",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Wait_Loops",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Wait_Time",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Player"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Effect_Resume": [
+			{
+				"id": "Players",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Pause_Loop_Resume",
+						"widget": "line_edit",
+						"default": "null"
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Player"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Effect_Skip": [
+			{
+				"id": "Players",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Time",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Player"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Effect_Stop": [
+			{
+				"id": "Players",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Stop_Frame",
+						"widget": "line_edit",
+						"default": "Clear"
+					},
+					{
+						"id": "Loops",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Duration",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Player"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Effect_Wait": [
+			{
+				"id": "Players",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Wait_Loops",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Wait_Time",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Player"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Elif": [
+			{
+				"id": "Condition",
+				"widget": "text_edit",
+				"default": ""
+			},
+			{
+				"id": "Type",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Description",
+				"widget": "text_edit",
+				"default": ""
+			},
+			{
+				"id": "Commands",
+				"widget": "map",
+				"entries": "commands",
+				"entry_prefix": "Command"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Else": [
+			{
+				"id": "Type",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Description",
+				"widget": "text_edit",
+				"default": ""
+			},
+			{
+				"id": "Commands",
+				"widget": "map",
+				"entries": "commands",
+				"entry_prefix": "Command"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Emit": [
+			{
+				"id": "Signal",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Arguments",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"End": [
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Engine_Language": [
+			{
+				"id": "Language",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Revert",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Engine_Writing": [
+			{
+				"id": "Writing_Speed",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Continue_Fast_Speed",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Continue_Slow_Speed",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Auto_Advance",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Sync_Write_Speed_Voice",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Await_Voice_Playback",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Revert",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Export": [
+			{
+				"id": "Data",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Format",
+				"widget": "line_edit",
+				"default": "json"
+			},
+			{
+				"id": "File",
+				"widget": "line_edit",
+				"default": "Export"
+			},
+			{
+				"id": "Path",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Method",
+				"widget": "line_edit",
+				"default": "Overwrite"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Flag": [
+			{
+				"id": "Flag",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Operator",
+				"widget": "line_edit",
+				"default": "="
+			},
+			{
+				"id": "Expression",
+				"widget": "text_edit",
+				"default": ""
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"For": [
+			{
+				"id": "Condition",
+				"widget": "text_edit",
+				"default": ""
+			},
+			{
+				"id": "Type",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Description",
+				"widget": "text_edit",
+				"default": ""
+			},
+			{
+				"id": "Commands",
+				"widget": "map",
+				"entries": "commands",
+				"entry_prefix": "Command"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"If": [
+			{
+				"id": "Condition",
+				"widget": "text_edit",
+				"default": ""
+			},
+			{
+				"id": "Type",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Description",
+				"widget": "text_edit",
+				"default": ""
+			},
+			{
+				"id": "Commands",
+				"widget": "map",
+				"entries": "commands",
+				"entry_prefix": "Command"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Import": [
+			{
+				"id": "File",
+				"widget": "line_edit",
+				"default": "Export"
+			},
+			{
+				"id": "Format",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Path",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Dictionary",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Input": [
+			{
+				"id": "File",
+				"widget": "line_edit",
+				"default": "Default.tscn"
+			},
+			{
+				"id": "Parent",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Variable",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Mode",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Instructions",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Placeholder",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Text",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Jump": [
+			{
+				"id": "Conversation",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Block",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Line",
+				"widget": "line_edit",
+				"default": "0"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Line_Portrait": [
+			{
+				"id": "Action",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Portrait",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Sprite_Frames_File",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Portrait_Play",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Portrait_Stop",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Frame",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"LM": [
+			{
+				"id": "Reference",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Media_Pause": [
+			{
+				"id": "Players",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Lines",
+						"widget": "line_edit",
+						"default": "-1"
+					},
+					{
+						"id": "All",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Pause_Loop_Start",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Pause_Loop_End",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Pause_Loop_Resume",
+						"widget": "line_edit",
+						"default": "Return"
+					},
+					{
+						"id": "Pause_Volume",
+						"widget": "line_edit",
+						"default": "null"
+					},
+					{
+						"id": "Pause_Volume_Time",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Resume_Volume_Time",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Box",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Player"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Media_Play": [
+			{
+				"id": "Players",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "File",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Loops",
+						"widget": "line_edit",
+						"default": "1"
+					},
+					{
+						"id": "Duration",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Stop_Frame",
+						"widget": "line_edit",
+						"default": "Clear"
+					},
+					{
+						"id": "Wait_Loops",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Wait_Time",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Animated",
+						"widget": "line_edit",
+						"default": "-1"
+					},
+					{
+						"id": "Box",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Player"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Media_Resume": [
+			{
+				"id": "Players",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Box",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Pause_Loop_Resume",
+						"widget": "line_edit",
+						"default": "null"
+					},
+					{
+						"id": "Resume_Volume_Time",
+						"widget": "line_edit",
+						"default": "null"
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Player"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Media_Skip": [
+			{
+				"id": "Players",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Time",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Player"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Media_Stop": [
+			{
+				"id": "Players",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Stop_Frame",
+						"widget": "line_edit",
+						"default": "Clear"
+					},
+					{
+						"id": "Loops",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Duration",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Player"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Media_Volume": [
+			{
+				"id": "Players",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Volume",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Time",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Player"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Media_Wait": [
+			{
+				"id": "Players",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Wait_Loops",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Wait_Time",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Box",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Player"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Mouse": [
+			{
+				"id": "Mouse_Mode",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Name": [
+			{
+				"id": "Reference",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Name",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Actor_Key",
+				"widget": "line_edit",
+				"default": "DisplayName"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Player_Advance": [
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Return": [
+			{
+				"id": "Levels",
+				"widget": "line_edit",
+				"default": "1"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Role": [
+			{
+				"id": "Role",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Reference",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Set": [
+			{
+				"id": "Variable",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Operator",
+				"widget": "line_edit",
+				"default": "="
+			},
+			{
+				"id": "Expression",
+				"widget": "text_edit",
+				"default": ""
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Spoken_Line": [
+			{
+				"id": "Reference",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Disposition",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Portrait",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Sprite_Frames_File",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Portrait_Play",
+				"widget": "line_edit",
+				"default": "1"
+			},
+			{
+				"id": "Portrait_Stop",
+				"widget": "line_edit",
+				"default": "1"
+			},
+			{
+				"id": "Voice",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Variations",
+				"widget": "list",
+				"fields": [
+					{
+						"id": "Text",
+						"widget": "text_edit",
+						"default": ""
+					},
+					{
+						"id": "Direction",
+						"widget": "line_edit",
+						"default": "LtR"
+					},
+					{
+						"id": "Weight",
+						"widget": "line_edit",
+						"default": "1"
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry": "named",
+				"entry_prefix": "Variation"
+			},
+			{
+				"id": "Text_Events",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Events",
+						"widget": "map",
+						"fields": [
+							{
+								"id": "Run_On_Skip",
+								"widget": "line_edit",
+								"default": "1"
+							},
+							{
+								"id": "Pause_Voice",
+								"widget": "line_edit",
+								"default": "null"
+							},
+							{
+								"id": "Resync_Voice",
+								"widget": "line_edit",
+								"default": "null"
+							},
+							{
+								"id": "Lines",
+								"widget": "list",
+								"entries": "commands"
+							},
+							{
+								"id": "Custom_Data",
+								"widget": "map",
+								"stored_in": "Meta",
+								"entries": "values",
+								"entry_prefix": "Custom",
+								"start_entries": 1,
+								"value": {
+									"default": ""
+								}
+							}
+						],
+						"entry_prefix": "Event"
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Variation"
+			},
+			{
+				"id": "Passed_Tags",
+				"widget": "map",
+				"entries": "values",
+				"entry_prefix": "Tag",
+				"start_entries": 0,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Disabled_Tags",
+				"widget": "map",
+				"entries": "values",
+				"entry_prefix": "Tag",
+				"start_entries": 0,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Dialogue_Mode",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Bubbles_Exempt_Mode",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Portrait_Mode",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Enable_Voice",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Await_Voice_Playback",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "TTS",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "TTS_Advanced_Fallback",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "LLM",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Writing_Speed",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Continue_Fast_Speed",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Continue_Slow_Speed",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Sync_Write_Speed_Voice",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Auto_Advance",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Write_Dialogue_History",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Text_BBCode",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Speaker_BBCode",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Show_Speaker",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Speaker_Prefix",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Speaker_Suffix",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "End_Of_Line_String",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Advance_String",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Self_Clear",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Portrait_Self_Clear",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Lexicon_Mode",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Line_Scene",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Speaker_Display",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Portrait_Display",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Alignment",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Keep_Portrait_Space",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Keep_Speaker_Space",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Keep_Alternate_Portrait_Space",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Keep_Alternate_Speaker_Space",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Timer_Status": [
+			{
+				"id": "Menu_Mode",
+				"widget": "line_edit",
+				"default": "Last"
+			},
+			{
+				"id": "Menu_Tags",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Timer_Mode",
+				"widget": "line_edit",
+				"default": "Last"
+			},
+			{
+				"id": "Timer_Tags",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Time",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Timer_Node",
+				"widget": "line_edit",
+				"default": "Ignore"
+			},
+			{
+				"id": "Loops",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Status",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"UI_Clear": [
+			{
+				"id": "Box",
+				"widget": "line_edit",
+				"default": "1"
+			},
+			{
+				"id": "Bubbles",
+				"widget": "line_edit",
+				"default": "1"
+			},
+			{
+				"id": "Subtitles",
+				"widget": "line_edit",
+				"default": "1"
+			},
+			{
+				"id": "Portraits",
+				"widget": "line_edit",
+				"default": "1"
+			},
+			{
+				"id": "Backgrounds",
+				"widget": "line_edit",
+				"default": "1"
+			},
+			{
+				"id": "Busts",
+				"widget": "line_edit",
+				"default": "1"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"UI_Z": [
+			{
+				"id": "Nodes",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Z_Index",
+						"widget": "line_edit",
+						"default": "Reset"
+					},
+					{
+						"id": "Relative_To",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Node"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"VN_Effect_Pause": [
+			{
+				"id": "Actors",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Effects",
+						"widget": "map",
+						"fields": [
+							{
+								"id": "Lines",
+								"widget": "line_edit",
+								"default": "-1"
+							},
+							{
+								"id": "All",
+								"widget": "line_edit",
+								"default": "0"
+							},
+							{
+								"id": "Pause_Loop_Start",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Pause_Loop_End",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Pause_Loop_Resume",
+								"widget": "line_edit",
+								"default": "Return"
+							},
+							{
+								"id": "FPS",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Library",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Take_Hold",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Custom_Data",
+								"widget": "map",
+								"stored_in": "Meta",
+								"entries": "values",
+								"entry_prefix": "Custom",
+								"start_entries": 1,
+								"value": {
+									"default": ""
+								}
+							}
+						],
+						"entry_prefix": "Effect"
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Actor"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"VN_Effect_Play": [
+			{
+				"id": "Actors",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Effects",
+						"widget": "map",
+						"fields": [
+							{
+								"id": "Library",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Loops",
+								"widget": "line_edit",
+								"default": "1"
+							},
+							{
+								"id": "Duration",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Stop_Frame",
+								"widget": "line_edit",
+								"default": "0"
+							},
+							{
+								"id": "Wait_Loops",
+								"widget": "line_edit",
+								"default": "0"
+							},
+							{
+								"id": "Wait_Time",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "FPS",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Take_Hold",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Custom_Data",
+								"widget": "map",
+								"stored_in": "Meta",
+								"entries": "values",
+								"entry_prefix": "Custom",
+								"start_entries": 1,
+								"value": {
+									"default": ""
+								}
+							}
+						],
+						"entry_prefix": "Effect"
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Actor"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"VN_Effect_Resume": [
+			{
+				"id": "Actors",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Effects",
+						"widget": "map",
+						"fields": [
+							{
+								"id": "Library",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Pause_Loop_Resume",
+								"widget": "line_edit",
+								"default": "null"
+							},
+							{
+								"id": "Take_Hold",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Custom_Data",
+								"widget": "map",
+								"stored_in": "Meta",
+								"entries": "values",
+								"entry_prefix": "Custom",
+								"start_entries": 1,
+								"value": {
+									"default": ""
+								}
+							}
+						],
+						"entry_prefix": "Effect"
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Actor"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"VN_Effect_Skip": [
+			{
+				"id": "Actors",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Effects",
+						"widget": "map",
+						"fields": [
+							{
+								"id": "Time",
+								"widget": "line_edit",
+								"default": "0"
+							},
+							{
+								"id": "FPS",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Library",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Take_Hold",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Custom_Data",
+								"widget": "map",
+								"stored_in": "Meta",
+								"entries": "values",
+								"entry_prefix": "Custom",
+								"start_entries": 1,
+								"value": {
+									"default": ""
+								}
+							}
+						],
+						"entry_prefix": "Effect"
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Actor"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"VN_Effect_Stop": [
+			{
+				"id": "Actors",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Effects",
+						"widget": "map",
+						"fields": [
+							{
+								"id": "Stop_Frame",
+								"widget": "line_edit",
+								"default": "Clear"
+							},
+							{
+								"id": "Loops",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Duration",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "FPS",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Library",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Take_Hold",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Custom_Data",
+								"widget": "map",
+								"stored_in": "Meta",
+								"entries": "values",
+								"entry_prefix": "Custom",
+								"start_entries": 1,
+								"value": {
+									"default": ""
+								}
+							}
+						],
+						"entry_prefix": "Effect"
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Actor"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"VN_Effect_Wait": [
+			{
+				"id": "Actors",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Effects",
+						"widget": "map",
+						"fields": [
+							{
+								"id": "Wait_Loops",
+								"widget": "line_edit",
+								"default": "0"
+							},
+							{
+								"id": "Wait_Time",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "FPS",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Library",
+								"widget": "line_edit",
+								"default": ""
+							},
+							{
+								"id": "Custom_Data",
+								"widget": "map",
+								"stored_in": "Meta",
+								"entries": "values",
+								"entry_prefix": "Custom",
+								"start_entries": 1,
+								"value": {
+									"default": ""
+								}
+							}
+						],
+						"entry_prefix": "Effect"
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Actor"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"VN_Mirror": [
+			{
+				"id": "Actors",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Axis",
+						"widget": "line_edit",
+						"default": "Reset"
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Actor"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"VN_Move": [
+			{
+				"id": "Actors",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Bust",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "JML_Order",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Move_From_Effect",
+						"widget": "line_edit",
+						"default": "null"
+					},
+					{
+						"id": "Move_To_Effect",
+						"widget": "line_edit",
+						"default": "null"
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Actor"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"VN_Pause": [
+			{
+				"id": "Actors",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Lines",
+						"widget": "line_edit",
+						"default": "-1"
+					},
+					{
+						"id": "All",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Pause_Loop_Start",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Pause_Loop_End",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Pause_Loop_Resume",
+						"widget": "line_edit",
+						"default": "Return"
+					},
+					{
+						"id": "Pause_Volume",
+						"widget": "line_edit",
+						"default": "null"
+					},
+					{
+						"id": "Pause_Volume_Time",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Resume_Volume_Time",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Actor"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"VN_Play": [
+			{
+				"id": "Actors",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Bust",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "File",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Animation",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Loops",
+						"widget": "line_edit",
+						"default": "1"
+					},
+					{
+						"id": "Duration",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Stop_Frame",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Wait_Loops",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Wait_Time",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "JML_Order",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Join_Effect",
+						"widget": "line_edit",
+						"default": "null"
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Actor"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"VN_Remove": [
+			{
+				"id": "Actors",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "JML_Order",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Leave_Effect",
+						"widget": "line_edit",
+						"default": "null"
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Actor"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"VN_Resume": [
+			{
+				"id": "Actors",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Pause_Loop_Resume",
+						"widget": "line_edit",
+						"default": "null"
+					},
+					{
+						"id": "Resume_Volume_Time",
+						"widget": "line_edit",
+						"default": "null"
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Actor"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"VN_Scene": [
+			{
+				"id": "Scene",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Take_Hold",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"VN_Skip": [
+			{
+				"id": "Actors",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Time",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Actor"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"VN_Stop": [
+			{
+				"id": "Actors",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Stop_Frame",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Loops",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Duration",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Actor"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"VN_Swap": [
+			{
+				"id": "Actors",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "With",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "JML_Order",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Move_From_Effect",
+						"widget": "line_edit",
+						"default": "null"
+					},
+					{
+						"id": "Move_To_Effect",
+						"widget": "line_edit",
+						"default": "null"
+					},
+					{
+						"id": "Take_Hold",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Actor"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"VN_Wait": [
+			{
+				"id": "Actors",
+				"widget": "map",
+				"fields": [
+					{
+						"id": "Wait_Loops",
+						"widget": "line_edit",
+						"default": "0"
+					},
+					{
+						"id": "Wait_Time",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "FPS",
+						"widget": "line_edit",
+						"default": ""
+					},
+					{
+						"id": "Custom_Data",
+						"widget": "map",
+						"stored_in": "Meta",
+						"entries": "values",
+						"entry_prefix": "Custom",
+						"start_entries": 1,
+						"value": {
+							"default": ""
+						}
+					}
+				],
+				"entry_prefix": "Actor"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Wait": [
+			{
+				"id": "Wait_Time",
+				"widget": "line_edit",
+				"default": "0"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"While": [
+			{
+				"id": "Condition",
+				"widget": "text_edit",
+				"default": ""
+			},
+			{
+				"id": "Type",
+				"widget": "line_edit",
+				"default": ""
+			},
+			{
+				"id": "Description",
+				"widget": "text_edit",
+				"default": ""
+			},
+			{
+				"id": "Commands",
+				"widget": "map",
+				"entries": "commands",
+				"entry_prefix": "Command"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Write_Pause": [
+			{
+				"id": "Wait_Time",
+				"widget": "line_edit",
+				"default": "0"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		],
+		"Write_Speed": [
+			{
+				"id": "Writing_Speed",
+				"widget": "line_edit",
+				"default": "null"
+			},
+			{
+				"id": "Meta_Reference",
+				"widget": "line_edit",
+				"default": "",
+				"stored_in": "Meta"
+			},
+			{
+				"id": "Meta_Notes",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Note",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			},
+			{
+				"id": "Custom_Data",
+				"widget": "map",
+				"stored_in": "Meta",
+				"entries": "values",
+				"entry_prefix": "Custom",
+				"start_entries": 1,
+				"value": {
+					"default": ""
+				}
+			}
+		]
+	}
+}
