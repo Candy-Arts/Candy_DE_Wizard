@@ -2,11 +2,11 @@
 
 # Candy DE Wizard
 **Candy DE Wizard provides several features related to Candy Dialogue Engine:**<br>
-• Download, install and update Candy Dialogue Engine into Godot projects.
-• Various tools for managing Candy Dialogue Engine.
-• Download Candy Database + the Candy Dialogue Engine documentation.
-• Display important news from Candy Arts.
-• Update the Wizard itself when new versions are released.
+• Download, install and update Candy Dialogue Engine into Godot projects.<br>
+• Various tools for managing Candy Dialogue Engine.<br>
+• Download Candy Database + the Candy Dialogue Engine documentation.<br>
+• Display important news from Candy Arts.<br>
+• Update the Wizard itself when new versions are released.<br>
 
 ## Compatibiliy
 Candy DE Wizard is compatible with Godot 4.7+ (4.7 and above).
